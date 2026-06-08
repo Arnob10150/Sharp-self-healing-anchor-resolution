@@ -4,6 +4,21 @@ data/*.part
 data/java_projects/
 data/repositoryState/
 
+# Local paper/research artifacts kept out of the code repository
+ARCHITECTURE_and_CODE_PLAN.md
+SHARP_Research_Plan_v2.md
+SHARP_latex_work/
+SHARP_paper_methodology_results_conclusion.zip
+V2/
+sharp_architecture_diagrams/
+sharp_figures/
+sharp_figures_conference/
+sharp_figures_n200/
+sharp_figures_n200_fixed/
+sharp_figures_validation/
+sharp_figures_validation_calibrated/
+sharp_project/
+
 # Runtime state
 .sharp_anchors.json
 
