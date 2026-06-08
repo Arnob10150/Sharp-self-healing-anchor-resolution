@@ -1,0 +1,6338 @@
+{
+  "dataset": "GitHub Java Corpus snapshot sample",
+  "corpus": "F:\\COMPAS 1\\AI MECHnism\\data\\java_projects",
+  "n_projects": 20,
+  "seeds": [
+    11,
+    17
+  ],
+  "calibration_seed": 11,
+  "evaluation_seeds": [
+    17
+  ],
+  "threshold_calibration": {
+    "tau_high": 0.69,
+    "max_fmr": 0.005,
+    "calibration_accuracy": 1.0,
+    "calibration_false_match_rate": 0.0
+  },
+  "thresholds": {
+    "tau_high": 0.69,
+    "tau_low": 0.62
+  },
+  "summary": {
+    "recovery_accuracy": 0.93,
+    "false_match_rate": 0.0,
+    "true_pairs": 100,
+    "decoy_pairs": 200
+  },
+  "easy_decoy_summary": {
+    "recovery_accuracy": 0.93,
+    "false_match_rate": 0.0,
+    "true_pairs": 100,
+    "decoy_pairs": 100
+  },
+  "hard_decoy_summary": {
+    "recovery_accuracy": 0.93,
+    "false_match_rate": 0.0,
+    "true_pairs": 100,
+    "decoy_pairs": 100
+  },
+  "by_drift": {
+    "0.0": {
+      "recovery_accuracy": 1.0,
+      "false_match_rate": 0.0,
+      "true_pairs": 20,
+      "decoy_pairs": 40,
+      "easy_false_match_rate": 0.0,
+      "hard_false_match_rate": 0.0,
+      "mean_true_similarity": 1.0,
+      "mean_easy_decoy_similarity": 0.15873523846779766,
+      "mean_hard_decoy_similarity": 0.25552472942457316
+    },
+    "0.05": {
+      "recovery_accuracy": 1.0,
+      "false_match_rate": 0.0,
+      "true_pairs": 20,
+      "decoy_pairs": 40,
+      "easy_false_match_rate": 0.0,
+      "hard_false_match_rate": 0.0,
+      "mean_true_similarity": 0.9874127075948197,
+      "mean_easy_decoy_similarity": 0.17667484499197733,
+      "mean_hard_decoy_similarity": 0.25552472942457316
+    },
+    "0.1": {
+      "recovery_accuracy": 1.0,
+      "false_match_rate": 0.0,
+      "true_pairs": 20,
+      "decoy_pairs": 40,
+      "easy_false_match_rate": 0.0,
+      "hard_false_match_rate": 0.0,
+      "mean_true_similarity": 0.9724144557507872,
+      "mean_easy_decoy_similarity": 0.1825205764650457,
+      "mean_hard_decoy_similarity": 0.25552472942457316
+    },
+    "0.25": {
+      "recovery_accuracy": 0.95,
+      "false_match_rate": 0.0,
+      "true_pairs": 20,
+      "decoy_pairs": 40,
+      "easy_false_match_rate": 0.0,
+      "hard_false_match_rate": 0.0,
+      "mean_true_similarity": 0.8943911380108952,
+      "mean_easy_decoy_similarity": 0.1624794723915289,
+      "mean_hard_decoy_similarity": 0.25552472942457316
+    },
+    "0.5": {
+      "recovery_accuracy": 0.7,
+      "false_match_rate": 0.0,
+      "true_pairs": 20,
+      "decoy_pairs": 40,
+      "easy_false_match_rate": 0.0,
+      "hard_false_match_rate": 0.0,
+      "mean_true_similarity": 0.7178954282398884,
+      "mean_easy_decoy_similarity": 0.17032922248003962,
+      "mean_hard_decoy_similarity": 0.25552472942457316
+    }
+  },
+  "drift_series": {
+    "0.0": {
+      "recovery_accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "easy_false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "hard_false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "mean_true_similarity": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "mean_easy_decoy_similarity": {
+        "mean": 0.15873523846779766,
+        "std": 0.0
+      },
+      "mean_hard_decoy_similarity": {
+        "mean": 0.25552472942457316,
+        "std": 0.0
+      }
+    },
+    "0.05": {
+      "recovery_accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "easy_false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "hard_false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "mean_true_similarity": {
+        "mean": 0.9874127075948197,
+        "std": 0.0
+      },
+      "mean_easy_decoy_similarity": {
+        "mean": 0.17667484499197733,
+        "std": 0.0
+      },
+      "mean_hard_decoy_similarity": {
+        "mean": 0.25552472942457316,
+        "std": 0.0
+      }
+    },
+    "0.1": {
+      "recovery_accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "easy_false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "hard_false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "mean_true_similarity": {
+        "mean": 0.9724144557507872,
+        "std": 0.0
+      },
+      "mean_easy_decoy_similarity": {
+        "mean": 0.1825205764650457,
+        "std": 0.0
+      },
+      "mean_hard_decoy_similarity": {
+        "mean": 0.25552472942457316,
+        "std": 0.0
+      }
+    },
+    "0.25": {
+      "recovery_accuracy": {
+        "mean": 0.95,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "easy_false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "hard_false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "mean_true_similarity": {
+        "mean": 0.8943911380108952,
+        "std": 0.0
+      },
+      "mean_easy_decoy_similarity": {
+        "mean": 0.1624794723915289,
+        "std": 0.0
+      },
+      "mean_hard_decoy_similarity": {
+        "mean": 0.25552472942457316,
+        "std": 0.0
+      }
+    },
+    "0.5": {
+      "recovery_accuracy": {
+        "mean": 0.7,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "easy_false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "hard_false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "mean_true_similarity": {
+        "mean": 0.7178954282398884,
+        "std": 0.0
+      },
+      "mean_easy_decoy_similarity": {
+        "mean": 0.17032922248003962,
+        "std": 0.0
+      },
+      "mean_hard_decoy_similarity": {
+        "mean": 0.25552472942457316,
+        "std": 0.0
+      }
+    }
+  },
+  "scenario_results": [
+    {
+      "scenario": "S1",
+      "label": "Drive-letter change",
+      "sharp": 1.0,
+      "path": 0.0,
+      "identifier": 1.0
+    },
+    {
+      "scenario": "S2",
+      "label": "New machine",
+      "sharp": 1.0,
+      "path": 0.0,
+      "identifier": 1.0
+    },
+    {
+      "scenario": "S3",
+      "label": "No client / no ID",
+      "sharp": 1.0,
+      "path": 0.0,
+      "identifier": 0.0
+    },
+    {
+      "scenario": "S4",
+      "label": "USB remount",
+      "sharp": 1.0,
+      "path": 0.0,
+      "identifier": 1.0
+    },
+    {
+      "scenario": "S5",
+      "label": "Rename",
+      "sharp": 1.0,
+      "path": 0.0,
+      "identifier": 1.0
+    },
+    {
+      "scenario": "S6",
+      "label": "Content drift",
+      "sharp": 0.93,
+      "path": 1.0,
+      "identifier": 1.0
+    }
+  ],
+  "threshold_sweep": [
+    {
+      "tau": 0.0,
+      "accuracy": 1.0,
+      "false_match_rate": 1.0
+    },
+    {
+      "tau": 0.01,
+      "accuracy": 1.0,
+      "false_match_rate": 1.0
+    },
+    {
+      "tau": 0.02,
+      "accuracy": 1.0,
+      "false_match_rate": 1.0
+    },
+    {
+      "tau": 0.03,
+      "accuracy": 1.0,
+      "false_match_rate": 1.0
+    },
+    {
+      "tau": 0.04,
+      "accuracy": 1.0,
+      "false_match_rate": 0.995
+    },
+    {
+      "tau": 0.05,
+      "accuracy": 1.0,
+      "false_match_rate": 0.995
+    },
+    {
+      "tau": 0.06,
+      "accuracy": 1.0,
+      "false_match_rate": 0.985
+    },
+    {
+      "tau": 0.07,
+      "accuracy": 1.0,
+      "false_match_rate": 0.985
+    },
+    {
+      "tau": 0.08,
+      "accuracy": 1.0,
+      "false_match_rate": 0.985
+    },
+    {
+      "tau": 0.09,
+      "accuracy": 1.0,
+      "false_match_rate": 0.96
+    },
+    {
+      "tau": 0.1,
+      "accuracy": 1.0,
+      "false_match_rate": 0.955
+    },
+    {
+      "tau": 0.11,
+      "accuracy": 1.0,
+      "false_match_rate": 0.95
+    },
+    {
+      "tau": 0.12,
+      "accuracy": 1.0,
+      "false_match_rate": 0.935
+    },
+    {
+      "tau": 0.13,
+      "accuracy": 1.0,
+      "false_match_rate": 0.91
+    },
+    {
+      "tau": 0.14,
+      "accuracy": 1.0,
+      "false_match_rate": 0.895
+    },
+    {
+      "tau": 0.15,
+      "accuracy": 1.0,
+      "false_match_rate": 0.875
+    },
+    {
+      "tau": 0.16,
+      "accuracy": 1.0,
+      "false_match_rate": 0.815
+    },
+    {
+      "tau": 0.17,
+      "accuracy": 1.0,
+      "false_match_rate": 0.76
+    },
+    {
+      "tau": 0.18,
+      "accuracy": 1.0,
+      "false_match_rate": 0.71
+    },
+    {
+      "tau": 0.19,
+      "accuracy": 1.0,
+      "false_match_rate": 0.685
+    },
+    {
+      "tau": 0.2,
+      "accuracy": 1.0,
+      "false_match_rate": 0.58
+    },
+    {
+      "tau": 0.21,
+      "accuracy": 1.0,
+      "false_match_rate": 0.555
+    },
+    {
+      "tau": 0.22,
+      "accuracy": 1.0,
+      "false_match_rate": 0.52
+    },
+    {
+      "tau": 0.23,
+      "accuracy": 1.0,
+      "false_match_rate": 0.385
+    },
+    {
+      "tau": 0.24,
+      "accuracy": 1.0,
+      "false_match_rate": 0.32
+    },
+    {
+      "tau": 0.25,
+      "accuracy": 1.0,
+      "false_match_rate": 0.265
+    },
+    {
+      "tau": 0.26,
+      "accuracy": 1.0,
+      "false_match_rate": 0.205
+    },
+    {
+      "tau": 0.27,
+      "accuracy": 1.0,
+      "false_match_rate": 0.2
+    },
+    {
+      "tau": 0.28,
+      "accuracy": 1.0,
+      "false_match_rate": 0.175
+    },
+    {
+      "tau": 0.29,
+      "accuracy": 1.0,
+      "false_match_rate": 0.075
+    },
+    {
+      "tau": 0.3,
+      "accuracy": 1.0,
+      "false_match_rate": 0.05
+    },
+    {
+      "tau": 0.31,
+      "accuracy": 1.0,
+      "false_match_rate": 0.025
+    },
+    {
+      "tau": 0.32,
+      "accuracy": 1.0,
+      "false_match_rate": 0.025
+    },
+    {
+      "tau": 0.33,
+      "accuracy": 1.0,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.34,
+      "accuracy": 1.0,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.35,
+      "accuracy": 1.0,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.36,
+      "accuracy": 1.0,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.37,
+      "accuracy": 1.0,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.38,
+      "accuracy": 1.0,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.39,
+      "accuracy": 1.0,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.4,
+      "accuracy": 1.0,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.41,
+      "accuracy": 1.0,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.42,
+      "accuracy": 1.0,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.43,
+      "accuracy": 1.0,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.44,
+      "accuracy": 1.0,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.45,
+      "accuracy": 1.0,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.46,
+      "accuracy": 1.0,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.47,
+      "accuracy": 1.0,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.48,
+      "accuracy": 1.0,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.49,
+      "accuracy": 0.99,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.5,
+      "accuracy": 0.99,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.51,
+      "accuracy": 0.99,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.52,
+      "accuracy": 0.99,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.53,
+      "accuracy": 0.99,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.54,
+      "accuracy": 0.98,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.55,
+      "accuracy": 0.98,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.56,
+      "accuracy": 0.98,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.57,
+      "accuracy": 0.98,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.58,
+      "accuracy": 0.98,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.59,
+      "accuracy": 0.98,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.6,
+      "accuracy": 0.98,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.61,
+      "accuracy": 0.98,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.62,
+      "accuracy": 0.98,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.63,
+      "accuracy": 0.98,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.64,
+      "accuracy": 0.98,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.65,
+      "accuracy": 0.98,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.66,
+      "accuracy": 0.98,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.67,
+      "accuracy": 0.96,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.68,
+      "accuracy": 0.96,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.69,
+      "accuracy": 0.93,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.7,
+      "accuracy": 0.93,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.71,
+      "accuracy": 0.9,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.72,
+      "accuracy": 0.88,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.73,
+      "accuracy": 0.88,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.74,
+      "accuracy": 0.85,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.75,
+      "accuracy": 0.84,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.76,
+      "accuracy": 0.84,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.77,
+      "accuracy": 0.84,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.78,
+      "accuracy": 0.83,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.79,
+      "accuracy": 0.83,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.8,
+      "accuracy": 0.82,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.81,
+      "accuracy": 0.79,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.82,
+      "accuracy": 0.79,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.83,
+      "accuracy": 0.79,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.84,
+      "accuracy": 0.79,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.85,
+      "accuracy": 0.79,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.86,
+      "accuracy": 0.78,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.87,
+      "accuracy": 0.78,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.88,
+      "accuracy": 0.77,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.89,
+      "accuracy": 0.74,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.9,
+      "accuracy": 0.72,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.91,
+      "accuracy": 0.68,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.92,
+      "accuracy": 0.66,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.93,
+      "accuracy": 0.63,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.94,
+      "accuracy": 0.61,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.95,
+      "accuracy": 0.59,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.96,
+      "accuracy": 0.58,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.97,
+      "accuracy": 0.53,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.98,
+      "accuracy": 0.43,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 0.99,
+      "accuracy": 0.34,
+      "false_match_rate": 0.0
+    },
+    {
+      "tau": 1.0,
+      "accuracy": 0.2,
+      "false_match_rate": 0.0
+    }
+  ],
+  "threshold_series": [
+    {
+      "tau": 0.0,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 1.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.01,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 1.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.02,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 1.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.03,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 1.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.04,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.995,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.05,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.995,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.06,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.985,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.07,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.985,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.08,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.985,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.09,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.96,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.1,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.955,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.11,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.95,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.12,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.935,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.13,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.91,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.14,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.895,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.15,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.875,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.16,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.815,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.17,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.76,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.18,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.71,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.19,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.685,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.2,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.58,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.21,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.555,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.22,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.52,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.23,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.385,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.24,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.32,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.25,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.265,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.26,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.205,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.27,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.2,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.28,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.175,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.29,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.075,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.3,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.05,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.31,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.025,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.32,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.025,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.33,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.34,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.35,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.36,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.37,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.38,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.39,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.4,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.41,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.42,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.43,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.44,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.45,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.46,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.47,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.48,
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.49,
+      "accuracy": {
+        "mean": 0.99,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.5,
+      "accuracy": {
+        "mean": 0.99,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.51,
+      "accuracy": {
+        "mean": 0.99,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.52,
+      "accuracy": {
+        "mean": 0.99,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.53,
+      "accuracy": {
+        "mean": 0.99,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.54,
+      "accuracy": {
+        "mean": 0.98,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.55,
+      "accuracy": {
+        "mean": 0.98,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.56,
+      "accuracy": {
+        "mean": 0.98,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.57,
+      "accuracy": {
+        "mean": 0.98,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.58,
+      "accuracy": {
+        "mean": 0.98,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.59,
+      "accuracy": {
+        "mean": 0.98,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.6,
+      "accuracy": {
+        "mean": 0.98,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.61,
+      "accuracy": {
+        "mean": 0.98,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.62,
+      "accuracy": {
+        "mean": 0.98,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.63,
+      "accuracy": {
+        "mean": 0.98,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.64,
+      "accuracy": {
+        "mean": 0.98,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.65,
+      "accuracy": {
+        "mean": 0.98,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.66,
+      "accuracy": {
+        "mean": 0.98,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.67,
+      "accuracy": {
+        "mean": 0.96,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.68,
+      "accuracy": {
+        "mean": 0.96,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.69,
+      "accuracy": {
+        "mean": 0.93,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.7,
+      "accuracy": {
+        "mean": 0.93,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.71,
+      "accuracy": {
+        "mean": 0.9,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.72,
+      "accuracy": {
+        "mean": 0.88,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.73,
+      "accuracy": {
+        "mean": 0.88,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.74,
+      "accuracy": {
+        "mean": 0.85,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.75,
+      "accuracy": {
+        "mean": 0.84,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.76,
+      "accuracy": {
+        "mean": 0.84,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.77,
+      "accuracy": {
+        "mean": 0.84,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.78,
+      "accuracy": {
+        "mean": 0.83,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.79,
+      "accuracy": {
+        "mean": 0.83,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.8,
+      "accuracy": {
+        "mean": 0.82,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.81,
+      "accuracy": {
+        "mean": 0.79,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.82,
+      "accuracy": {
+        "mean": 0.79,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.83,
+      "accuracy": {
+        "mean": 0.79,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.84,
+      "accuracy": {
+        "mean": 0.79,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.85,
+      "accuracy": {
+        "mean": 0.79,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.86,
+      "accuracy": {
+        "mean": 0.78,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.87,
+      "accuracy": {
+        "mean": 0.78,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.88,
+      "accuracy": {
+        "mean": 0.77,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.89,
+      "accuracy": {
+        "mean": 0.74,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.9,
+      "accuracy": {
+        "mean": 0.72,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.91,
+      "accuracy": {
+        "mean": 0.68,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.92,
+      "accuracy": {
+        "mean": 0.66,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.93,
+      "accuracy": {
+        "mean": 0.63,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.94,
+      "accuracy": {
+        "mean": 0.61,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.95,
+      "accuracy": {
+        "mean": 0.59,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.96,
+      "accuracy": {
+        "mean": 0.58,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.97,
+      "accuracy": {
+        "mean": 0.53,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.98,
+      "accuracy": {
+        "mean": 0.43,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 0.99,
+      "accuracy": {
+        "mean": 0.34,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "tau": 1.0,
+      "accuracy": {
+        "mean": 0.2,
+        "std": 0.0
+      },
+      "false_match_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    }
+  ],
+  "roc": {
+    "points": [
+      {
+        "tau": 0.0,
+        "accuracy": 1.0,
+        "false_match_rate": 1.0
+      },
+      {
+        "tau": 0.01,
+        "accuracy": 1.0,
+        "false_match_rate": 1.0
+      },
+      {
+        "tau": 0.02,
+        "accuracy": 1.0,
+        "false_match_rate": 1.0
+      },
+      {
+        "tau": 0.03,
+        "accuracy": 1.0,
+        "false_match_rate": 1.0
+      },
+      {
+        "tau": 0.04,
+        "accuracy": 1.0,
+        "false_match_rate": 0.995
+      },
+      {
+        "tau": 0.05,
+        "accuracy": 1.0,
+        "false_match_rate": 0.995
+      },
+      {
+        "tau": 0.06,
+        "accuracy": 1.0,
+        "false_match_rate": 0.985
+      },
+      {
+        "tau": 0.07,
+        "accuracy": 1.0,
+        "false_match_rate": 0.985
+      },
+      {
+        "tau": 0.08,
+        "accuracy": 1.0,
+        "false_match_rate": 0.985
+      },
+      {
+        "tau": 0.09,
+        "accuracy": 1.0,
+        "false_match_rate": 0.96
+      },
+      {
+        "tau": 0.1,
+        "accuracy": 1.0,
+        "false_match_rate": 0.955
+      },
+      {
+        "tau": 0.11,
+        "accuracy": 1.0,
+        "false_match_rate": 0.95
+      },
+      {
+        "tau": 0.12,
+        "accuracy": 1.0,
+        "false_match_rate": 0.935
+      },
+      {
+        "tau": 0.13,
+        "accuracy": 1.0,
+        "false_match_rate": 0.91
+      },
+      {
+        "tau": 0.14,
+        "accuracy": 1.0,
+        "false_match_rate": 0.895
+      },
+      {
+        "tau": 0.15,
+        "accuracy": 1.0,
+        "false_match_rate": 0.875
+      },
+      {
+        "tau": 0.16,
+        "accuracy": 1.0,
+        "false_match_rate": 0.815
+      },
+      {
+        "tau": 0.17,
+        "accuracy": 1.0,
+        "false_match_rate": 0.76
+      },
+      {
+        "tau": 0.18,
+        "accuracy": 1.0,
+        "false_match_rate": 0.71
+      },
+      {
+        "tau": 0.19,
+        "accuracy": 1.0,
+        "false_match_rate": 0.685
+      },
+      {
+        "tau": 0.2,
+        "accuracy": 1.0,
+        "false_match_rate": 0.58
+      },
+      {
+        "tau": 0.21,
+        "accuracy": 1.0,
+        "false_match_rate": 0.555
+      },
+      {
+        "tau": 0.22,
+        "accuracy": 1.0,
+        "false_match_rate": 0.52
+      },
+      {
+        "tau": 0.23,
+        "accuracy": 1.0,
+        "false_match_rate": 0.385
+      },
+      {
+        "tau": 0.24,
+        "accuracy": 1.0,
+        "false_match_rate": 0.32
+      },
+      {
+        "tau": 0.25,
+        "accuracy": 1.0,
+        "false_match_rate": 0.265
+      },
+      {
+        "tau": 0.26,
+        "accuracy": 1.0,
+        "false_match_rate": 0.205
+      },
+      {
+        "tau": 0.27,
+        "accuracy": 1.0,
+        "false_match_rate": 0.2
+      },
+      {
+        "tau": 0.28,
+        "accuracy": 1.0,
+        "false_match_rate": 0.175
+      },
+      {
+        "tau": 0.29,
+        "accuracy": 1.0,
+        "false_match_rate": 0.075
+      },
+      {
+        "tau": 0.3,
+        "accuracy": 1.0,
+        "false_match_rate": 0.05
+      },
+      {
+        "tau": 0.31,
+        "accuracy": 1.0,
+        "false_match_rate": 0.025
+      },
+      {
+        "tau": 0.32,
+        "accuracy": 1.0,
+        "false_match_rate": 0.025
+      },
+      {
+        "tau": 0.33,
+        "accuracy": 1.0,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.34,
+        "accuracy": 1.0,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.35,
+        "accuracy": 1.0,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.36,
+        "accuracy": 1.0,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.37,
+        "accuracy": 1.0,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.38,
+        "accuracy": 1.0,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.39,
+        "accuracy": 1.0,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.4,
+        "accuracy": 1.0,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.41,
+        "accuracy": 1.0,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.42,
+        "accuracy": 1.0,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.43,
+        "accuracy": 1.0,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.44,
+        "accuracy": 1.0,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.45,
+        "accuracy": 1.0,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.46,
+        "accuracy": 1.0,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.47,
+        "accuracy": 1.0,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.48,
+        "accuracy": 1.0,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.49,
+        "accuracy": 0.99,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.5,
+        "accuracy": 0.99,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.51,
+        "accuracy": 0.99,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.52,
+        "accuracy": 0.99,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.53,
+        "accuracy": 0.99,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.54,
+        "accuracy": 0.98,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.55,
+        "accuracy": 0.98,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.56,
+        "accuracy": 0.98,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.57,
+        "accuracy": 0.98,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.58,
+        "accuracy": 0.98,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.59,
+        "accuracy": 0.98,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.6,
+        "accuracy": 0.98,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.61,
+        "accuracy": 0.98,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.62,
+        "accuracy": 0.98,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.63,
+        "accuracy": 0.98,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.64,
+        "accuracy": 0.98,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.65,
+        "accuracy": 0.98,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.66,
+        "accuracy": 0.98,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.67,
+        "accuracy": 0.96,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.68,
+        "accuracy": 0.96,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.69,
+        "accuracy": 0.93,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.7,
+        "accuracy": 0.93,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.71,
+        "accuracy": 0.9,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.72,
+        "accuracy": 0.88,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.73,
+        "accuracy": 0.88,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.74,
+        "accuracy": 0.85,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.75,
+        "accuracy": 0.84,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.76,
+        "accuracy": 0.84,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.77,
+        "accuracy": 0.84,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.78,
+        "accuracy": 0.83,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.79,
+        "accuracy": 0.83,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.8,
+        "accuracy": 0.82,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.81,
+        "accuracy": 0.79,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.82,
+        "accuracy": 0.79,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.83,
+        "accuracy": 0.79,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.84,
+        "accuracy": 0.79,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.85,
+        "accuracy": 0.79,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.86,
+        "accuracy": 0.78,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.87,
+        "accuracy": 0.78,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.88,
+        "accuracy": 0.77,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.89,
+        "accuracy": 0.74,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.9,
+        "accuracy": 0.72,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.91,
+        "accuracy": 0.68,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.92,
+        "accuracy": 0.66,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.93,
+        "accuracy": 0.63,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.94,
+        "accuracy": 0.61,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.95,
+        "accuracy": 0.59,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.96,
+        "accuracy": 0.58,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.97,
+        "accuracy": 0.53,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.98,
+        "accuracy": 0.43,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 0.99,
+        "accuracy": 0.34,
+        "false_match_rate": 0.0
+      },
+      {
+        "tau": 1.0,
+        "accuracy": 0.2,
+        "false_match_rate": 0.0
+      }
+    ],
+    "auc": 1.0
+  },
+  "ablation": [
+    {
+      "mode": "content_only",
+      "recovery_accuracy": 0.93,
+      "false_match_rate": 0.0,
+      "true_pairs": 100,
+      "decoy_pairs": 200
+    },
+    {
+      "mode": "content_plus_name_hint",
+      "recovery_accuracy": 0.98,
+      "false_match_rate": 0.0,
+      "true_pairs": 100,
+      "decoy_pairs": 200
+    }
+  ],
+  "latency": {
+    "fingerprint": [
+      {
+        "folder": "data/java_projects/jboss-jacc-api_spec",
+        "file_count": 13,
+        "seconds": 0.06756949999908102
+      },
+      {
+        "folder": "data/java_projects/Team02-border-guard",
+        "file_count": 44,
+        "seconds": 0.054611400000794674
+      },
+      {
+        "folder": "data/java_projects/MetaHeuristics4Java",
+        "file_count": 61,
+        "seconds": 0.07950440000058734
+      },
+      {
+        "folder": "data/java_projects/tagbrowser",
+        "file_count": 7,
+        "seconds": 0.014335299998492701
+      },
+      {
+        "folder": "data/java_projects/vespucci",
+        "file_count": 303,
+        "seconds": 0.9191269000002649
+      },
+      {
+        "folder": "data/java_projects/sip-creator",
+        "file_count": 139,
+        "seconds": 0.5007473999994545
+      },
+      {
+        "folder": "data/java_projects/jHipChat",
+        "file_count": 15,
+        "seconds": 0.038115399998787325
+      },
+      {
+        "folder": "data/java_projects/LazyList",
+        "file_count": 6,
+        "seconds": 0.010840999999345513
+      },
+      {
+        "folder": "data/java_projects/TadpoleForDBTools",
+        "file_count": 346,
+        "seconds": 0.6241061999990052
+      },
+      {
+        "folder": "data/java_projects/MoreRecipes",
+        "file_count": 2,
+        "seconds": 0.01410790000045381
+      },
+      {
+        "folder": "data/java_projects/codigolimpo20120512",
+        "file_count": 8,
+        "seconds": 0.006170099999508238
+      },
+      {
+        "folder": "data/java_projects/cloudhopper-smpp",
+        "file_count": 123,
+        "seconds": 0.29311690000031376
+      },
+      {
+        "folder": "data/java_projects/SparseMatrix",
+        "file_count": 3,
+        "seconds": 0.005562799999097479
+      },
+      {
+        "folder": "data/java_projects/license-maven-plugin",
+        "file_count": 64,
+        "seconds": 0.18817789999957313
+      },
+      {
+        "folder": "data/java_projects/Jota-Text-Editor",
+        "file_count": 79,
+        "seconds": 0.5225725999989663
+      },
+      {
+        "folder": "data/java_projects/onebusaway-gtfs-realtime-exporter",
+        "file_count": 15,
+        "seconds": 0.015899699999863515
+      },
+      {
+        "folder": "data/java_projects/netty-tutorials",
+        "file_count": 27,
+        "seconds": 0.04121090000080585
+      },
+      {
+        "folder": "data/java_projects/socialpm",
+        "file_count": 285,
+        "seconds": 0.36003619999974035
+      },
+      {
+        "folder": "data/java_projects/Cm9-patch-Galaxy",
+        "file_count": 3,
+        "seconds": 0.2588697000010143
+      },
+      {
+        "folder": "data/java_projects/Barcodes",
+        "file_count": 3,
+        "seconds": 0.0160675999995874
+      }
+    ],
+    "resolution": [
+      {
+        "candidate_pool_size": 5,
+        "seconds": 0.05740960000002815
+      },
+      {
+        "candidate_pool_size": 10,
+        "seconds": 0.11750838000007206
+      },
+      {
+        "candidate_pool_size": 20,
+        "seconds": 0.22343015000005834
+      }
+    ]
+  },
+  "failure_analysis": [
+    {
+      "failure_type": "heavy_drift",
+      "count": 6,
+      "share_of_failures": 0.8571428571428571,
+      "explanation": "Content drift at or above 50% drops below the conservative threshold."
+    },
+    {
+      "failure_type": "moderate_drift",
+      "count": 1,
+      "share_of_failures": 0.14285714285714285,
+      "explanation": "Some moderately edited folders lose enough sampled content overlap to fall below threshold."
+    },
+    {
+      "failure_type": "low_similarity",
+      "count": 7,
+      "share_of_failures": 1.0,
+      "explanation": "The query and stored fingerprint share too little content after edits/additions/deletions."
+    }
+  ],
+  "trial_summaries": [
+    {
+      "seed": 11,
+      "summary": {
+        "recovery_accuracy": 1.0,
+        "false_match_rate": 0.0,
+        "true_pairs": 100,
+        "decoy_pairs": 200
+      },
+      "easy_decoy_summary": {
+        "recovery_accuracy": 1.0,
+        "false_match_rate": 0.0,
+        "true_pairs": 100,
+        "decoy_pairs": 100
+      },
+      "hard_decoy_summary": {
+        "recovery_accuracy": 1.0,
+        "false_match_rate": 0.0,
+        "true_pairs": 100,
+        "decoy_pairs": 100
+      },
+      "by_drift": {
+        "0.0": {
+          "recovery_accuracy": 1.0,
+          "false_match_rate": 0.0,
+          "true_pairs": 20,
+          "decoy_pairs": 40,
+          "easy_false_match_rate": 0.0,
+          "hard_false_match_rate": 0.0,
+          "mean_true_similarity": 1.0,
+          "mean_easy_decoy_similarity": 0.167995296733649,
+          "mean_hard_decoy_similarity": 0.24700885908162204
+        },
+        "0.05": {
+          "recovery_accuracy": 1.0,
+          "false_match_rate": 0.0,
+          "true_pairs": 20,
+          "decoy_pairs": 40,
+          "easy_false_match_rate": 0.0,
+          "hard_false_match_rate": 0.0,
+          "mean_true_similarity": 0.9874774089412371,
+          "mean_easy_decoy_similarity": 0.16960184664077788,
+          "mean_hard_decoy_similarity": 0.24700885908162204
+        },
+        "0.1": {
+          "recovery_accuracy": 1.0,
+          "false_match_rate": 0.0,
+          "true_pairs": 20,
+          "decoy_pairs": 40,
+          "easy_false_match_rate": 0.0,
+          "hard_false_match_rate": 0.0,
+          "mean_true_similarity": 0.9708905501619449,
+          "mean_easy_decoy_similarity": 0.14083480761094164,
+          "mean_hard_decoy_similarity": 0.24700885908162204
+        },
+        "0.25": {
+          "recovery_accuracy": 1.0,
+          "false_match_rate": 0.0,
+          "true_pairs": 20,
+          "decoy_pairs": 40,
+          "easy_false_match_rate": 0.0,
+          "hard_false_match_rate": 0.0,
+          "mean_true_similarity": 0.9093723191327973,
+          "mean_easy_decoy_similarity": 0.14902179285248257,
+          "mean_hard_decoy_similarity": 0.24700885908162204
+        },
+        "0.5": {
+          "recovery_accuracy": 1.0,
+          "false_match_rate": 0.0,
+          "true_pairs": 20,
+          "decoy_pairs": 40,
+          "easy_false_match_rate": 0.0,
+          "hard_false_match_rate": 0.0,
+          "mean_true_similarity": 0.7491143281640866,
+          "mean_easy_decoy_similarity": 0.16942198704514094,
+          "mean_hard_decoy_similarity": 0.24700885908162204
+        }
+      }
+    },
+    {
+      "seed": 17,
+      "summary": {
+        "recovery_accuracy": 0.93,
+        "false_match_rate": 0.0,
+        "true_pairs": 100,
+        "decoy_pairs": 200
+      },
+      "easy_decoy_summary": {
+        "recovery_accuracy": 0.93,
+        "false_match_rate": 0.0,
+        "true_pairs": 100,
+        "decoy_pairs": 100
+      },
+      "hard_decoy_summary": {
+        "recovery_accuracy": 0.93,
+        "false_match_rate": 0.0,
+        "true_pairs": 100,
+        "decoy_pairs": 100
+      },
+      "by_drift": {
+        "0.0": {
+          "recovery_accuracy": 1.0,
+          "false_match_rate": 0.0,
+          "true_pairs": 20,
+          "decoy_pairs": 40,
+          "easy_false_match_rate": 0.0,
+          "hard_false_match_rate": 0.0,
+          "mean_true_similarity": 1.0,
+          "mean_easy_decoy_similarity": 0.15873523846779766,
+          "mean_hard_decoy_similarity": 0.25552472942457316
+        },
+        "0.05": {
+          "recovery_accuracy": 1.0,
+          "false_match_rate": 0.0,
+          "true_pairs": 20,
+          "decoy_pairs": 40,
+          "easy_false_match_rate": 0.0,
+          "hard_false_match_rate": 0.0,
+          "mean_true_similarity": 0.9874127075948197,
+          "mean_easy_decoy_similarity": 0.17667484499197733,
+          "mean_hard_decoy_similarity": 0.25552472942457316
+        },
+        "0.1": {
+          "recovery_accuracy": 1.0,
+          "false_match_rate": 0.0,
+          "true_pairs": 20,
+          "decoy_pairs": 40,
+          "easy_false_match_rate": 0.0,
+          "hard_false_match_rate": 0.0,
+          "mean_true_similarity": 0.9724144557507872,
+          "mean_easy_decoy_similarity": 0.1825205764650457,
+          "mean_hard_decoy_similarity": 0.25552472942457316
+        },
+        "0.25": {
+          "recovery_accuracy": 0.95,
+          "false_match_rate": 0.0,
+          "true_pairs": 20,
+          "decoy_pairs": 40,
+          "easy_false_match_rate": 0.0,
+          "hard_false_match_rate": 0.0,
+          "mean_true_similarity": 0.8943911380108952,
+          "mean_easy_decoy_similarity": 0.1624794723915289,
+          "mean_hard_decoy_similarity": 0.25552472942457316
+        },
+        "0.5": {
+          "recovery_accuracy": 0.7,
+          "false_match_rate": 0.0,
+          "true_pairs": 20,
+          "decoy_pairs": 40,
+          "easy_false_match_rate": 0.0,
+          "hard_false_match_rate": 0.0,
+          "mean_true_similarity": 0.7178954282398884,
+          "mean_easy_decoy_similarity": 0.17032922248003962,
+          "mean_hard_decoy_similarity": 0.25552472942457316
+        }
+      }
+    }
+  ],
+  "rows": [
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.0,
+      "reference": "data/java_projects/lombok.maven",
+      "candidate": "java_projects_lombok.maven_drift_0",
+      "score": 1.0,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.0,
+      "reference": "data/java_projects/lombok.maven",
+      "candidate": "data/java_projects/BlockDoor",
+      "score": 0.1505737222828786,
+      "score_with_name_hint": 0.1505737222828786,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.0,
+      "reference": "data/java_projects/lombok.maven",
+      "candidate": "data/java_projects/maven-plugins_2",
+      "score": 0.19732496305507571,
+      "score_with_name_hint": 0.19732496305507571,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.0,
+      "reference": "data/java_projects/j2mc-iptracker",
+      "candidate": "java_projects_j2mc-iptracker_drift_0",
+      "score": 1.0,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.0,
+      "reference": "data/java_projects/j2mc-iptracker",
+      "candidate": "data/java_projects/RandCS",
+      "score": 0.1419154266078707,
+      "score_with_name_hint": 0.1419154266078707,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.0,
+      "reference": "data/java_projects/j2mc-iptracker",
+      "candidate": "data/java_projects/Android-LED-Power-Status",
+      "score": 0.23703083589670568,
+      "score_with_name_hint": 0.23703083589670568,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.0,
+      "reference": "data/java_projects/Speakex",
+      "candidate": "java_projects_Speakex_drift_0",
+      "score": 1.0,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.0,
+      "reference": "data/java_projects/Speakex",
+      "candidate": "data/java_projects/direct-to-heroku-client-java",
+      "score": 0.0883977242339395,
+      "score_with_name_hint": 0.0883977242339395,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.0,
+      "reference": "data/java_projects/Speakex",
+      "candidate": "data/java_projects/Android-EmptyApp",
+      "score": 0.19516907225853303,
+      "score_with_name_hint": 0.19516907225853303,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.0,
+      "reference": "data/java_projects/fanfoudroid",
+      "candidate": "java_projects_fanfoudroid_drift_0",
+      "score": 1.0,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.0,
+      "reference": "data/java_projects/fanfoudroid",
+      "candidate": "data/java_projects/marakana-alpha",
+      "score": 0.12381643250532677,
+      "score_with_name_hint": 0.12381643250532677,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.0,
+      "reference": "data/java_projects/fanfoudroid",
+      "candidate": "data/java_projects/FlickrjApi4Android",
+      "score": 0.2828637510320424,
+      "score_with_name_hint": 0.2828637510320424,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.0,
+      "reference": "data/java_projects/wss4j",
+      "candidate": "java_projects_wss4j_drift_0",
+      "score": 1.0,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.0,
+      "reference": "data/java_projects/wss4j",
+      "candidate": "data/java_projects/edumips64",
+      "score": 0.13289747065682556,
+      "score_with_name_hint": 0.13289747065682556,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.0,
+      "reference": "data/java_projects/wss4j",
+      "candidate": "data/java_projects/XMPP-for-Android",
+      "score": 0.2511628853732698,
+      "score_with_name_hint": 0.2511628853732698,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.0,
+      "reference": "data/java_projects/HansungProject",
+      "candidate": "java_projects_HansungProject_drift_0",
+      "score": 1.0,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.0,
+      "reference": "data/java_projects/HansungProject",
+      "candidate": "data/java_projects/wss4j",
+      "score": 0.08604957121949063,
+      "score_with_name_hint": 0.08604957121949063,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.0,
+      "reference": "data/java_projects/HansungProject",
+      "candidate": "data/java_projects/HelloADK_1",
+      "score": 0.2847853752312209,
+      "score_with_name_hint": 0.2847853752312209,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.0,
+      "reference": "data/java_projects/envinject-plugin",
+      "candidate": "java_projects_envinject-plugin_drift_0",
+      "score": 1.0,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.0,
+      "reference": "data/java_projects/envinject-plugin",
+      "candidate": "data/java_projects/hive-serde",
+      "score": 0.17154588371340246,
+      "score_with_name_hint": 0.17154588371340246,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.0,
+      "reference": "data/java_projects/envinject-plugin",
+      "candidate": "data/java_projects/dtkit-plugin",
+      "score": 0.3014953438946864,
+      "score_with_name_hint": 0.3014953438946864,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.0,
+      "reference": "data/java_projects/claim-plugin",
+      "candidate": "java_projects_claim-plugin_drift_0",
+      "score": 1.0,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.0,
+      "reference": "data/java_projects/claim-plugin",
+      "candidate": "data/java_projects/j2mc-iptracker",
+      "score": 0.2147918158141829,
+      "score_with_name_hint": 0.2147918158141829,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.0,
+      "reference": "data/java_projects/claim-plugin",
+      "candidate": "data/java_projects/stackhammer-plugin",
+      "score": 0.24592330695618536,
+      "score_with_name_hint": 0.24592330695618536,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.0,
+      "reference": "data/java_projects/searchable",
+      "candidate": "java_projects_searchable_drift_0",
+      "score": 1.0,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.0,
+      "reference": "data/java_projects/searchable",
+      "candidate": "data/java_projects/wss4j",
+      "score": 0.12115776745098067,
+      "score_with_name_hint": 0.12115776745098067,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.0,
+      "reference": "data/java_projects/searchable",
+      "candidate": "data/java_projects/Smaller",
+      "score": 0.2388197446257759,
+      "score_with_name_hint": 0.2388197446257759,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.0,
+      "reference": "data/java_projects/RandCS",
+      "candidate": "java_projects_RandCS_drift_0",
+      "score": 1.0,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.0,
+      "reference": "data/java_projects/RandCS",
+      "candidate": "data/java_projects/envinject-plugin",
+      "score": 0.23614596398479604,
+      "score_with_name_hint": 0.23614596398479604,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.0,
+      "reference": "data/java_projects/RandCS",
+      "candidate": "data/java_projects/Catan",
+      "score": 0.24797360060136675,
+      "score_with_name_hint": 0.24797360060136675,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.0,
+      "reference": "data/java_projects/quickview",
+      "candidate": "java_projects_quickview_drift_0",
+      "score": 1.0,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.0,
+      "reference": "data/java_projects/quickview",
+      "candidate": "data/java_projects/wss4j",
+      "score": 0.11565187531617764,
+      "score_with_name_hint": 0.11565187531617764,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.0,
+      "reference": "data/java_projects/quickview",
+      "candidate": "data/java_projects/Analiza-i-Modelowanie",
+      "score": 0.29314857064707406,
+      "score_with_name_hint": 0.29314857064707406,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.0,
+      "reference": "data/java_projects/marakana-alpha",
+      "candidate": "java_projects_marakana-alpha_drift_0",
+      "score": 1.0,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.0,
+      "reference": "data/java_projects/marakana-alpha",
+      "candidate": "data/java_projects/hive-serde",
+      "score": 0.16591677967248675,
+      "score_with_name_hint": 0.16591677967248675,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.0,
+      "reference": "data/java_projects/marakana-alpha",
+      "candidate": "data/java_projects/Exploding-Eggs",
+      "score": 0.28565980047507045,
+      "score_with_name_hint": 0.28565980047507045,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.0,
+      "reference": "data/java_projects/picross",
+      "candidate": "java_projects_picross_drift_0",
+      "score": 1.0,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.0,
+      "reference": "data/java_projects/picross",
+      "candidate": "data/java_projects/hive-serde",
+      "score": 0.21037286406594735,
+      "score_with_name_hint": 0.21037286406594735,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.0,
+      "reference": "data/java_projects/picross",
+      "candidate": "data/java_projects/Android-Rest-Client",
+      "score": 0.2209873425978615,
+      "score_with_name_hint": 0.2209873425978615,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.0,
+      "reference": "data/java_projects/edumips64",
+      "candidate": "java_projects_edumips64_drift_0",
+      "score": 1.0,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.0,
+      "reference": "data/java_projects/edumips64",
+      "candidate": "data/java_projects/envinject-plugin",
+      "score": 0.18115955771876988,
+      "score_with_name_hint": 0.18115955771876988,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.0,
+      "reference": "data/java_projects/edumips64",
+      "candidate": "data/java_projects/SPREAD",
+      "score": 0.25967300773257973,
+      "score_with_name_hint": 0.25967300773257973,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.0,
+      "reference": "data/java_projects/BlockDoor",
+      "candidate": "java_projects_BlockDoor_drift_0",
+      "score": 1.0,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.0,
+      "reference": "data/java_projects/BlockDoor",
+      "candidate": "data/java_projects/quickview",
+      "score": 0.2286546705600349,
+      "score_with_name_hint": 0.2286546705600349,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.0,
+      "reference": "data/java_projects/BlockDoor",
+      "candidate": "data/java_projects/iBank",
+      "score": 0.22128618355973087,
+      "score_with_name_hint": 0.22128618355973087,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.0,
+      "reference": "data/java_projects/umerobo",
+      "candidate": "java_projects_umerobo_drift_0",
+      "score": 1.0,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.0,
+      "reference": "data/java_projects/umerobo",
+      "candidate": "data/java_projects/hive-serde",
+      "score": 0.16185424036200508,
+      "score_with_name_hint": 0.16185424036200508,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.0,
+      "reference": "data/java_projects/umerobo",
+      "candidate": "data/java_projects/theantswar",
+      "score": 0.27436825218464567,
+      "score_with_name_hint": 0.27436825218464567,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.0,
+      "reference": "data/java_projects/android-api_1",
+      "candidate": "java_projects_android-api_1_drift_0",
+      "score": 1.0,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.0,
+      "reference": "data/java_projects/android-api_1",
+      "candidate": "data/java_projects/fanfoudroid",
+      "score": 0.18754228225393657,
+      "score_with_name_hint": 0.18754228225393657,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.0,
+      "reference": "data/java_projects/android-api_1",
+      "candidate": "data/java_projects/gameapi-android",
+      "score": 0.2272957840422814,
+      "score_with_name_hint": 0.2272957840422814,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.0,
+      "reference": "data/java_projects/direct-to-heroku-client-java",
+      "candidate": "java_projects_direct-to-heroku-client-java_drift_0",
+      "score": 1.0,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.0,
+      "reference": "data/java_projects/direct-to-heroku-client-java",
+      "candidate": "data/java_projects/Speakex",
+      "score": 0.0883977242339395,
+      "score_with_name_hint": 0.0883977242339395,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.0,
+      "reference": "data/java_projects/direct-to-heroku-client-java",
+      "candidate": "data/java_projects/java-api",
+      "score": 0.28865038905057055,
+      "score_with_name_hint": 0.28865038905057055,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.0,
+      "reference": "data/java_projects/hive-serde",
+      "candidate": "java_projects_hive-serde_drift_0",
+      "score": 1.0,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.0,
+      "reference": "data/java_projects/hive-serde",
+      "candidate": "data/java_projects/RandCS",
+      "score": 0.1434599192078051,
+      "score_with_name_hint": 0.1434599192078051,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.0,
+      "reference": "data/java_projects/hive-serde",
+      "candidate": "data/java_projects/android-datepicker",
+      "score": 0.2269780142562545,
+      "score_with_name_hint": 0.2269780142562545,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.0,
+      "reference": "data/java_projects/Spring-Batch-Workshop",
+      "candidate": "java_projects_Spring-Batch-Workshop_drift_0",
+      "score": 1.0,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.0,
+      "reference": "data/java_projects/Spring-Batch-Workshop",
+      "candidate": "data/java_projects/edumips64",
+      "score": 0.2244030774951568,
+      "score_with_name_hint": 0.2244030774951568,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.0,
+      "reference": "data/java_projects/Spring-Batch-Workshop",
+      "candidate": "data/java_projects/spring-test-dbunit",
+      "score": 0.3298983650205324,
+      "score_with_name_hint": 0.3298983650205324,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.05,
+      "reference": "data/java_projects/lombok.maven",
+      "candidate": "java_projects_lombok.maven_drift_5",
+      "score": 0.9898292432884427,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.05,
+      "reference": "data/java_projects/lombok.maven",
+      "candidate": "data/java_projects/HansungProject",
+      "score": 0.22464392101203776,
+      "score_with_name_hint": 0.22464392101203776,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.05,
+      "reference": "data/java_projects/lombok.maven",
+      "candidate": "data/java_projects/maven-plugins_2",
+      "score": 0.19732496305507571,
+      "score_with_name_hint": 0.19732496305507571,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.05,
+      "reference": "data/java_projects/j2mc-iptracker",
+      "candidate": "java_projects_j2mc-iptracker_drift_5",
+      "score": 0.9941929155637907,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.05,
+      "reference": "data/java_projects/j2mc-iptracker",
+      "candidate": "data/java_projects/Speakex",
+      "score": 0.15286276675504326,
+      "score_with_name_hint": 0.15286276675504326,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.05,
+      "reference": "data/java_projects/j2mc-iptracker",
+      "candidate": "data/java_projects/Android-LED-Power-Status",
+      "score": 0.23703083589670568,
+      "score_with_name_hint": 0.23703083589670568,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.05,
+      "reference": "data/java_projects/Speakex",
+      "candidate": "java_projects_Speakex_drift_5",
+      "score": 0.9101281307977737,
+      "score_with_name_hint": 0.9401281307977737,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.05,
+      "reference": "data/java_projects/Speakex",
+      "candidate": "data/java_projects/j2mc-iptracker",
+      "score": 0.15286276675504326,
+      "score_with_name_hint": 0.15286276675504326,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.05,
+      "reference": "data/java_projects/Speakex",
+      "candidate": "data/java_projects/Android-EmptyApp",
+      "score": 0.19516907225853303,
+      "score_with_name_hint": 0.19516907225853303,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.05,
+      "reference": "data/java_projects/fanfoudroid",
+      "candidate": "java_projects_fanfoudroid_drift_5",
+      "score": 0.9915456952801495,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.05,
+      "reference": "data/java_projects/fanfoudroid",
+      "candidate": "data/java_projects/direct-to-heroku-client-java",
+      "score": 0.16805989225908669,
+      "score_with_name_hint": 0.16805989225908669,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.05,
+      "reference": "data/java_projects/fanfoudroid",
+      "candidate": "data/java_projects/FlickrjApi4Android",
+      "score": 0.2828637510320424,
+      "score_with_name_hint": 0.2828637510320424,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.05,
+      "reference": "data/java_projects/wss4j",
+      "candidate": "java_projects_wss4j_drift_5",
+      "score": 0.9864086701994024,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.05,
+      "reference": "data/java_projects/wss4j",
+      "candidate": "data/java_projects/RandCS",
+      "score": 0.09754737180688462,
+      "score_with_name_hint": 0.09754737180688462,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.05,
+      "reference": "data/java_projects/wss4j",
+      "candidate": "data/java_projects/XMPP-for-Android",
+      "score": 0.2511628853732698,
+      "score_with_name_hint": 0.2511628853732698,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.05,
+      "reference": "data/java_projects/HansungProject",
+      "candidate": "java_projects_HansungProject_drift_5",
+      "score": 0.9724052234856224,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.05,
+      "reference": "data/java_projects/HansungProject",
+      "candidate": "data/java_projects/Spring-Batch-Workshop",
+      "score": 0.1530593136336361,
+      "score_with_name_hint": 0.1530593136336361,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.05,
+      "reference": "data/java_projects/HansungProject",
+      "candidate": "data/java_projects/HelloADK_1",
+      "score": 0.2847853752312209,
+      "score_with_name_hint": 0.2847853752312209,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.05,
+      "reference": "data/java_projects/envinject-plugin",
+      "candidate": "java_projects_envinject-plugin_drift_5",
+      "score": 0.9978172513871504,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.05,
+      "reference": "data/java_projects/envinject-plugin",
+      "candidate": "data/java_projects/direct-to-heroku-client-java",
+      "score": 0.2348648812919371,
+      "score_with_name_hint": 0.2348648812919371,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.05,
+      "reference": "data/java_projects/envinject-plugin",
+      "candidate": "data/java_projects/dtkit-plugin",
+      "score": 0.3014953438946864,
+      "score_with_name_hint": 0.3014953438946864,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.05,
+      "reference": "data/java_projects/claim-plugin",
+      "candidate": "java_projects_claim-plugin_drift_5",
+      "score": 0.9929632128857224,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.05,
+      "reference": "data/java_projects/claim-plugin",
+      "candidate": "data/java_projects/picross",
+      "score": 0.19091615563440129,
+      "score_with_name_hint": 0.19091615563440129,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.05,
+      "reference": "data/java_projects/claim-plugin",
+      "candidate": "data/java_projects/stackhammer-plugin",
+      "score": 0.24592330695618536,
+      "score_with_name_hint": 0.24592330695618536,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.05,
+      "reference": "data/java_projects/searchable",
+      "candidate": "java_projects_searchable_drift_5",
+      "score": 0.9957284675474495,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.05,
+      "reference": "data/java_projects/searchable",
+      "candidate": "data/java_projects/Speakex",
+      "score": 0.10452040678691828,
+      "score_with_name_hint": 0.10452040678691828,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.05,
+      "reference": "data/java_projects/searchable",
+      "candidate": "data/java_projects/Smaller",
+      "score": 0.2388197446257759,
+      "score_with_name_hint": 0.2388197446257759,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.05,
+      "reference": "data/java_projects/RandCS",
+      "candidate": "java_projects_RandCS_drift_5",
+      "score": 0.9961930671488473,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.05,
+      "reference": "data/java_projects/RandCS",
+      "candidate": "data/java_projects/searchable",
+      "score": 0.20647194702112323,
+      "score_with_name_hint": 0.20647194702112323,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.05,
+      "reference": "data/java_projects/RandCS",
+      "candidate": "data/java_projects/Catan",
+      "score": 0.24797360060136675,
+      "score_with_name_hint": 0.24797360060136675,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.05,
+      "reference": "data/java_projects/quickview",
+      "candidate": "java_projects_quickview_drift_5",
+      "score": 0.9970746549026341,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.05,
+      "reference": "data/java_projects/quickview",
+      "candidate": "data/java_projects/claim-plugin",
+      "score": 0.16730677220570292,
+      "score_with_name_hint": 0.16730677220570292,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.05,
+      "reference": "data/java_projects/quickview",
+      "candidate": "data/java_projects/Analiza-i-Modelowanie",
+      "score": 0.29314857064707406,
+      "score_with_name_hint": 0.29314857064707406,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.05,
+      "reference": "data/java_projects/marakana-alpha",
+      "candidate": "java_projects_marakana-alpha_drift_5",
+      "score": 0.9815712833790439,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.05,
+      "reference": "data/java_projects/marakana-alpha",
+      "candidate": "data/java_projects/envinject-plugin",
+      "score": 0.16313095694262117,
+      "score_with_name_hint": 0.16313095694262117,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.05,
+      "reference": "data/java_projects/marakana-alpha",
+      "candidate": "data/java_projects/Exploding-Eggs",
+      "score": 0.28565980047507045,
+      "score_with_name_hint": 0.28565980047507045,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.05,
+      "reference": "data/java_projects/picross",
+      "candidate": "java_projects_picross_drift_5",
+      "score": 0.9988298423396318,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.05,
+      "reference": "data/java_projects/picross",
+      "candidate": "data/java_projects/BlockDoor",
+      "score": 0.13227741878613178,
+      "score_with_name_hint": 0.13227741878613178,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.05,
+      "reference": "data/java_projects/picross",
+      "candidate": "data/java_projects/Android-Rest-Client",
+      "score": 0.2209873425978615,
+      "score_with_name_hint": 0.2209873425978615,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.05,
+      "reference": "data/java_projects/edumips64",
+      "candidate": "java_projects_edumips64_drift_5",
+      "score": 0.9937533167852353,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.05,
+      "reference": "data/java_projects/edumips64",
+      "candidate": "data/java_projects/searchable",
+      "score": 0.1877476839925854,
+      "score_with_name_hint": 0.1877476839925854,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.05,
+      "reference": "data/java_projects/edumips64",
+      "candidate": "data/java_projects/SPREAD",
+      "score": 0.25967300773257973,
+      "score_with_name_hint": 0.25967300773257973,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.05,
+      "reference": "data/java_projects/BlockDoor",
+      "candidate": "java_projects_BlockDoor_drift_5",
+      "score": 0.9979474849437101,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.05,
+      "reference": "data/java_projects/BlockDoor",
+      "candidate": "data/java_projects/searchable",
+      "score": 0.19391594850636426,
+      "score_with_name_hint": 0.19391594850636426,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.05,
+      "reference": "data/java_projects/BlockDoor",
+      "candidate": "data/java_projects/iBank",
+      "score": 0.22128618355973087,
+      "score_with_name_hint": 0.22128618355973087,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.05,
+      "reference": "data/java_projects/umerobo",
+      "candidate": "java_projects_umerobo_drift_5",
+      "score": 0.9984832252294583,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.05,
+      "reference": "data/java_projects/umerobo",
+      "candidate": "data/java_projects/lombok.maven",
+      "score": 0.19449844055528476,
+      "score_with_name_hint": 0.19449844055528476,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.05,
+      "reference": "data/java_projects/umerobo",
+      "candidate": "data/java_projects/theantswar",
+      "score": 0.27436825218464567,
+      "score_with_name_hint": 0.27436825218464567,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.05,
+      "reference": "data/java_projects/android-api_1",
+      "candidate": "java_projects_android-api_1_drift_5",
+      "score": 0.9988905115915764,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.05,
+      "reference": "data/java_projects/android-api_1",
+      "candidate": "data/java_projects/direct-to-heroku-client-java",
+      "score": 0.17586705937493646,
+      "score_with_name_hint": 0.17586705937493646,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.05,
+      "reference": "data/java_projects/android-api_1",
+      "candidate": "data/java_projects/gameapi-android",
+      "score": 0.2272957840422814,
+      "score_with_name_hint": 0.2272957840422814,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.05,
+      "reference": "data/java_projects/direct-to-heroku-client-java",
+      "candidate": "java_projects_direct-to-heroku-client-java_drift_5",
+      "score": 0.9925361960049708,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.05,
+      "reference": "data/java_projects/direct-to-heroku-client-java",
+      "candidate": "data/java_projects/HansungProject",
+      "score": 0.2213059174866135,
+      "score_with_name_hint": 0.2213059174866135,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.05,
+      "reference": "data/java_projects/direct-to-heroku-client-java",
+      "candidate": "data/java_projects/java-api",
+      "score": 0.28865038905057055,
+      "score_with_name_hint": 0.28865038905057055,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.05,
+      "reference": "data/java_projects/hive-serde",
+      "candidate": "java_projects_hive-serde_drift_5",
+      "score": 0.9724346239576596,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.05,
+      "reference": "data/java_projects/hive-serde",
+      "candidate": "data/java_projects/fanfoudroid",
+      "score": 0.18723420153803835,
+      "score_with_name_hint": 0.18723420153803835,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.05,
+      "reference": "data/java_projects/hive-serde",
+      "candidate": "data/java_projects/android-datepicker",
+      "score": 0.2269780142562545,
+      "score_with_name_hint": 0.2269780142562545,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.05,
+      "reference": "data/java_projects/Spring-Batch-Workshop",
+      "candidate": "java_projects_Spring-Batch-Workshop_drift_5",
+      "score": 0.9895211351781238,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.05,
+      "reference": "data/java_projects/Spring-Batch-Workshop",
+      "candidate": "data/java_projects/edumips64",
+      "score": 0.2244030774951568,
+      "score_with_name_hint": 0.2244030774951568,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.05,
+      "reference": "data/java_projects/Spring-Batch-Workshop",
+      "candidate": "data/java_projects/spring-test-dbunit",
+      "score": 0.3298983650205324,
+      "score_with_name_hint": 0.3298983650205324,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.1,
+      "reference": "data/java_projects/lombok.maven",
+      "candidate": "java_projects_lombok.maven_drift_10",
+      "score": 0.9877698528984175,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.1,
+      "reference": "data/java_projects/lombok.maven",
+      "candidate": "data/java_projects/marakana-alpha",
+      "score": 0.24375070834827647,
+      "score_with_name_hint": 0.24375070834827647,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.1,
+      "reference": "data/java_projects/lombok.maven",
+      "candidate": "data/java_projects/maven-plugins_2",
+      "score": 0.19732496305507571,
+      "score_with_name_hint": 0.19732496305507571,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.1,
+      "reference": "data/java_projects/j2mc-iptracker",
+      "candidate": "java_projects_j2mc-iptracker_drift_10",
+      "score": 0.9690453689290144,
+      "score_with_name_hint": 0.9990453689290144,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.1,
+      "reference": "data/java_projects/j2mc-iptracker",
+      "candidate": "data/java_projects/umerobo",
+      "score": 0.17004768567051917,
+      "score_with_name_hint": 0.17004768567051917,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.1,
+      "reference": "data/java_projects/j2mc-iptracker",
+      "candidate": "data/java_projects/Android-LED-Power-Status",
+      "score": 0.23703083589670568,
+      "score_with_name_hint": 0.23703083589670568,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.1,
+      "reference": "data/java_projects/Speakex",
+      "candidate": "java_projects_Speakex_drift_10",
+      "score": 0.8785427693761814,
+      "score_with_name_hint": 0.9085427693761814,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.1,
+      "reference": "data/java_projects/Speakex",
+      "candidate": "data/java_projects/umerobo",
+      "score": 0.11515527194365932,
+      "score_with_name_hint": 0.11515527194365932,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.1,
+      "reference": "data/java_projects/Speakex",
+      "candidate": "data/java_projects/Android-EmptyApp",
+      "score": 0.19516907225853303,
+      "score_with_name_hint": 0.19516907225853303,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.1,
+      "reference": "data/java_projects/fanfoudroid",
+      "candidate": "java_projects_fanfoudroid_drift_10",
+      "score": 0.9694500147619144,
+      "score_with_name_hint": 0.9994500147619144,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.1,
+      "reference": "data/java_projects/fanfoudroid",
+      "candidate": "data/java_projects/claim-plugin",
+      "score": 0.1509398007773309,
+      "score_with_name_hint": 0.1509398007773309,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.1,
+      "reference": "data/java_projects/fanfoudroid",
+      "candidate": "data/java_projects/FlickrjApi4Android",
+      "score": 0.2828637510320424,
+      "score_with_name_hint": 0.2828637510320424,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.1,
+      "reference": "data/java_projects/wss4j",
+      "candidate": "java_projects_wss4j_drift_10",
+      "score": 0.9796174414959204,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.1,
+      "reference": "data/java_projects/wss4j",
+      "candidate": "data/java_projects/lombok.maven",
+      "score": 0.05934089158702192,
+      "score_with_name_hint": 0.05934089158702192,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.1,
+      "reference": "data/java_projects/wss4j",
+      "candidate": "data/java_projects/XMPP-for-Android",
+      "score": 0.2511628853732698,
+      "score_with_name_hint": 0.2511628853732698,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.1,
+      "reference": "data/java_projects/HansungProject",
+      "candidate": "java_projects_HansungProject_drift_10",
+      "score": 0.9490465613333076,
+      "score_with_name_hint": 0.9790465613333076,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.1,
+      "reference": "data/java_projects/HansungProject",
+      "candidate": "data/java_projects/quickview",
+      "score": 0.16135296879079356,
+      "score_with_name_hint": 0.16135296879079356,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.1,
+      "reference": "data/java_projects/HansungProject",
+      "candidate": "data/java_projects/HelloADK_1",
+      "score": 0.2847853752312209,
+      "score_with_name_hint": 0.2847853752312209,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.1,
+      "reference": "data/java_projects/envinject-plugin",
+      "candidate": "java_projects_envinject-plugin_drift_10",
+      "score": 0.9715339865669765,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.1,
+      "reference": "data/java_projects/envinject-plugin",
+      "candidate": "data/java_projects/searchable",
+      "score": 0.26232472398527384,
+      "score_with_name_hint": 0.26232472398527384,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.1,
+      "reference": "data/java_projects/envinject-plugin",
+      "candidate": "data/java_projects/dtkit-plugin",
+      "score": 0.3014953438946864,
+      "score_with_name_hint": 0.3014953438946864,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.1,
+      "reference": "data/java_projects/claim-plugin",
+      "candidate": "java_projects_claim-plugin_drift_10",
+      "score": 0.9774595621182465,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.1,
+      "reference": "data/java_projects/claim-plugin",
+      "candidate": "data/java_projects/picross",
+      "score": 0.19091615563440129,
+      "score_with_name_hint": 0.19091615563440129,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.1,
+      "reference": "data/java_projects/claim-plugin",
+      "candidate": "data/java_projects/stackhammer-plugin",
+      "score": 0.24592330695618536,
+      "score_with_name_hint": 0.24592330695618536,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.1,
+      "reference": "data/java_projects/searchable",
+      "candidate": "java_projects_searchable_drift_10",
+      "score": 0.9894096307381456,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.1,
+      "reference": "data/java_projects/searchable",
+      "candidate": "data/java_projects/BlockDoor",
+      "score": 0.19391594850636426,
+      "score_with_name_hint": 0.19391594850636426,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.1,
+      "reference": "data/java_projects/searchable",
+      "candidate": "data/java_projects/Smaller",
+      "score": 0.2388197446257759,
+      "score_with_name_hint": 0.2388197446257759,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.1,
+      "reference": "data/java_projects/RandCS",
+      "candidate": "java_projects_RandCS_drift_10",
+      "score": 0.9788607673010072,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.1,
+      "reference": "data/java_projects/RandCS",
+      "candidate": "data/java_projects/envinject-plugin",
+      "score": 0.23614596398479604,
+      "score_with_name_hint": 0.23614596398479604,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.1,
+      "reference": "data/java_projects/RandCS",
+      "candidate": "data/java_projects/Catan",
+      "score": 0.24797360060136675,
+      "score_with_name_hint": 0.24797360060136675,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.1,
+      "reference": "data/java_projects/quickview",
+      "candidate": "java_projects_quickview_drift_10",
+      "score": 0.9756203971143762,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.1,
+      "reference": "data/java_projects/quickview",
+      "candidate": "data/java_projects/edumips64",
+      "score": 0.2037173640196662,
+      "score_with_name_hint": 0.2037173640196662,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.1,
+      "reference": "data/java_projects/quickview",
+      "candidate": "data/java_projects/Analiza-i-Modelowanie",
+      "score": 0.29314857064707406,
+      "score_with_name_hint": 0.29314857064707406,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.1,
+      "reference": "data/java_projects/marakana-alpha",
+      "candidate": "java_projects_marakana-alpha_drift_10",
+      "score": 0.9829473868457457,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.1,
+      "reference": "data/java_projects/marakana-alpha",
+      "candidate": "data/java_projects/umerobo",
+      "score": 0.16789409181473927,
+      "score_with_name_hint": 0.16789409181473927,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.1,
+      "reference": "data/java_projects/marakana-alpha",
+      "candidate": "data/java_projects/Exploding-Eggs",
+      "score": 0.28565980047507045,
+      "score_with_name_hint": 0.28565980047507045,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.1,
+      "reference": "data/java_projects/picross",
+      "candidate": "java_projects_picross_drift_10",
+      "score": 0.9695634973439757,
+      "score_with_name_hint": 0.9995634973439758,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.1,
+      "reference": "data/java_projects/picross",
+      "candidate": "data/java_projects/claim-plugin",
+      "score": 0.19091615563440129,
+      "score_with_name_hint": 0.19091615563440129,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.1,
+      "reference": "data/java_projects/picross",
+      "candidate": "data/java_projects/Android-Rest-Client",
+      "score": 0.2209873425978615,
+      "score_with_name_hint": 0.2209873425978615,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.1,
+      "reference": "data/java_projects/edumips64",
+      "candidate": "java_projects_edumips64_drift_10",
+      "score": 0.9799375081013486,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.1,
+      "reference": "data/java_projects/edumips64",
+      "candidate": "data/java_projects/claim-plugin",
+      "score": 0.1382726770122086,
+      "score_with_name_hint": 0.1382726770122086,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.1,
+      "reference": "data/java_projects/edumips64",
+      "candidate": "data/java_projects/SPREAD",
+      "score": 0.25967300773257973,
+      "score_with_name_hint": 0.25967300773257973,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.1,
+      "reference": "data/java_projects/BlockDoor",
+      "candidate": "java_projects_BlockDoor_drift_10",
+      "score": 0.9790509014677682,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.1,
+      "reference": "data/java_projects/BlockDoor",
+      "candidate": "data/java_projects/quickview",
+      "score": 0.2286546705600349,
+      "score_with_name_hint": 0.2286546705600349,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.1,
+      "reference": "data/java_projects/BlockDoor",
+      "candidate": "data/java_projects/iBank",
+      "score": 0.22128618355973087,
+      "score_with_name_hint": 0.22128618355973087,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.1,
+      "reference": "data/java_projects/umerobo",
+      "candidate": "java_projects_umerobo_drift_10",
+      "score": 0.986887423755075,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.1,
+      "reference": "data/java_projects/umerobo",
+      "candidate": "data/java_projects/android-api_1",
+      "score": 0.21174329984099743,
+      "score_with_name_hint": 0.21174329984099743,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.1,
+      "reference": "data/java_projects/umerobo",
+      "candidate": "data/java_projects/theantswar",
+      "score": 0.27436825218464567,
+      "score_with_name_hint": 0.27436825218464567,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.1,
+      "reference": "data/java_projects/android-api_1",
+      "candidate": "java_projects_android-api_1_drift_10",
+      "score": 0.9927515695706322,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.1,
+      "reference": "data/java_projects/android-api_1",
+      "candidate": "data/java_projects/wss4j",
+      "score": 0.12385088028380764,
+      "score_with_name_hint": 0.12385088028380764,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.1,
+      "reference": "data/java_projects/android-api_1",
+      "candidate": "data/java_projects/gameapi-android",
+      "score": 0.2272957840422814,
+      "score_with_name_hint": 0.2272957840422814,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.1,
+      "reference": "data/java_projects/direct-to-heroku-client-java",
+      "candidate": "java_projects_direct-to-heroku-client-java_drift_10",
+      "score": 0.9866979875501419,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.1,
+      "reference": "data/java_projects/direct-to-heroku-client-java",
+      "candidate": "data/java_projects/umerobo",
+      "score": 0.20353042530379442,
+      "score_with_name_hint": 0.20353042530379442,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.1,
+      "reference": "data/java_projects/direct-to-heroku-client-java",
+      "candidate": "data/java_projects/java-api",
+      "score": 0.28865038905057055,
+      "score_with_name_hint": 0.28865038905057055,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.1,
+      "reference": "data/java_projects/hive-serde",
+      "candidate": "java_projects_hive-serde_drift_10",
+      "score": 0.9674112337184327,
+      "score_with_name_hint": 0.9974112337184328,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.1,
+      "reference": "data/java_projects/hive-serde",
+      "candidate": "data/java_projects/quickview",
+      "score": 0.17049590108887688,
+      "score_with_name_hint": 0.17049590108887688,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.1,
+      "reference": "data/java_projects/hive-serde",
+      "candidate": "data/java_projects/android-datepicker",
+      "score": 0.2269780142562545,
+      "score_with_name_hint": 0.2269780142562545,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.1,
+      "reference": "data/java_projects/Spring-Batch-Workshop",
+      "candidate": "java_projects_Spring-Batch-Workshop_drift_10",
+      "score": 0.9766852540291165,
+      "score_with_name_hint": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.1,
+      "reference": "data/java_projects/Spring-Batch-Workshop",
+      "candidate": "data/java_projects/umerobo",
+      "score": 0.22744594451395023,
+      "score_with_name_hint": 0.22744594451395023,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.1,
+      "reference": "data/java_projects/Spring-Batch-Workshop",
+      "candidate": "data/java_projects/spring-test-dbunit",
+      "score": 0.3298983650205324,
+      "score_with_name_hint": 0.3298983650205324,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.25,
+      "reference": "data/java_projects/lombok.maven",
+      "candidate": "java_projects_lombok.maven_drift_25",
+      "score": 0.9425783984608721,
+      "score_with_name_hint": 0.9725783984608721,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.25,
+      "reference": "data/java_projects/lombok.maven",
+      "candidate": "data/java_projects/RandCS",
+      "score": 0.17996766447091153,
+      "score_with_name_hint": 0.17996766447091153,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.25,
+      "reference": "data/java_projects/lombok.maven",
+      "candidate": "data/java_projects/maven-plugins_2",
+      "score": 0.19732496305507571,
+      "score_with_name_hint": 0.19732496305507571,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.25,
+      "reference": "data/java_projects/j2mc-iptracker",
+      "candidate": "java_projects_j2mc-iptracker_drift_25",
+      "score": 0.966582843803056,
+      "score_with_name_hint": 0.9965828438030561,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.25,
+      "reference": "data/java_projects/j2mc-iptracker",
+      "candidate": "data/java_projects/searchable",
+      "score": 0.14923408047921194,
+      "score_with_name_hint": 0.14923408047921194,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.25,
+      "reference": "data/java_projects/j2mc-iptracker",
+      "candidate": "data/java_projects/Android-LED-Power-Status",
+      "score": 0.23703083589670568,
+      "score_with_name_hint": 0.23703083589670568,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.25,
+      "reference": "data/java_projects/Speakex",
+      "candidate": "java_projects_Speakex_drift_25",
+      "score": 0.5398963049267643,
+      "score_with_name_hint": 0.5698963049267644,
+      "decision": "reject",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.25,
+      "reference": "data/java_projects/Speakex",
+      "candidate": "data/java_projects/j2mc-iptracker",
+      "score": 0.15286276675504326,
+      "score_with_name_hint": 0.15286276675504326,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.25,
+      "reference": "data/java_projects/Speakex",
+      "candidate": "data/java_projects/Android-EmptyApp",
+      "score": 0.19516907225853303,
+      "score_with_name_hint": 0.19516907225853303,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.25,
+      "reference": "data/java_projects/fanfoudroid",
+      "candidate": "java_projects_fanfoudroid_drift_25",
+      "score": 0.8831830288335349,
+      "score_with_name_hint": 0.913183028833535,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.25,
+      "reference": "data/java_projects/fanfoudroid",
+      "candidate": "data/java_projects/lombok.maven",
+      "score": 0.15283208369439913,
+      "score_with_name_hint": 0.15283208369439913,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.25,
+      "reference": "data/java_projects/fanfoudroid",
+      "candidate": "data/java_projects/FlickrjApi4Android",
+      "score": 0.2828637510320424,
+      "score_with_name_hint": 0.2828637510320424,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.25,
+      "reference": "data/java_projects/wss4j",
+      "candidate": "java_projects_wss4j_drift_25",
+      "score": 0.8578501120551255,
+      "score_with_name_hint": 0.8878501120551255,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.25,
+      "reference": "data/java_projects/wss4j",
+      "candidate": "data/java_projects/picross",
+      "score": 0.054824706516552114,
+      "score_with_name_hint": 0.054824706516552114,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.25,
+      "reference": "data/java_projects/wss4j",
+      "candidate": "data/java_projects/XMPP-for-Android",
+      "score": 0.2511628853732698,
+      "score_with_name_hint": 0.2511628853732698,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.25,
+      "reference": "data/java_projects/HansungProject",
+      "candidate": "java_projects_HansungProject_drift_25",
+      "score": 0.8981359707904998,
+      "score_with_name_hint": 0.9281359707904998,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.25,
+      "reference": "data/java_projects/HansungProject",
+      "candidate": "data/java_projects/j2mc-iptracker",
+      "score": 0.19182140029629313,
+      "score_with_name_hint": 0.19182140029629313,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.25,
+      "reference": "data/java_projects/HansungProject",
+      "candidate": "data/java_projects/HelloADK_1",
+      "score": 0.2847853752312209,
+      "score_with_name_hint": 0.2847853752312209,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.25,
+      "reference": "data/java_projects/envinject-plugin",
+      "candidate": "java_projects_envinject-plugin_drift_25",
+      "score": 0.9243379579298865,
+      "score_with_name_hint": 0.9543379579298865,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.25,
+      "reference": "data/java_projects/envinject-plugin",
+      "candidate": "data/java_projects/picross",
+      "score": 0.15640314147151935,
+      "score_with_name_hint": 0.15640314147151935,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.25,
+      "reference": "data/java_projects/envinject-plugin",
+      "candidate": "data/java_projects/dtkit-plugin",
+      "score": 0.3014953438946864,
+      "score_with_name_hint": 0.3014953438946864,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.25,
+      "reference": "data/java_projects/claim-plugin",
+      "candidate": "java_projects_claim-plugin_drift_25",
+      "score": 0.9188330910802579,
+      "score_with_name_hint": 0.9488330910802579,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.25,
+      "reference": "data/java_projects/claim-plugin",
+      "candidate": "data/java_projects/searchable",
+      "score": 0.16508337352198407,
+      "score_with_name_hint": 0.16508337352198407,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.25,
+      "reference": "data/java_projects/claim-plugin",
+      "candidate": "data/java_projects/stackhammer-plugin",
+      "score": 0.24592330695618536,
+      "score_with_name_hint": 0.24592330695618536,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.25,
+      "reference": "data/java_projects/searchable",
+      "candidate": "java_projects_searchable_drift_25",
+      "score": 0.9042527226019798,
+      "score_with_name_hint": 0.9342527226019798,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.25,
+      "reference": "data/java_projects/searchable",
+      "candidate": "data/java_projects/HansungProject",
+      "score": 0.1697871715416028,
+      "score_with_name_hint": 0.1697871715416028,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.25,
+      "reference": "data/java_projects/searchable",
+      "candidate": "data/java_projects/Smaller",
+      "score": 0.2388197446257759,
+      "score_with_name_hint": 0.2388197446257759,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.25,
+      "reference": "data/java_projects/RandCS",
+      "candidate": "java_projects_RandCS_drift_25",
+      "score": 0.9024488242818332,
+      "score_with_name_hint": 0.9324488242818332,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.25,
+      "reference": "data/java_projects/RandCS",
+      "candidate": "data/java_projects/BlockDoor",
+      "score": 0.21806126894590905,
+      "score_with_name_hint": 0.21806126894590905,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.25,
+      "reference": "data/java_projects/RandCS",
+      "candidate": "data/java_projects/Catan",
+      "score": 0.24797360060136675,
+      "score_with_name_hint": 0.24797360060136675,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.25,
+      "reference": "data/java_projects/quickview",
+      "candidate": "java_projects_quickview_drift_25",
+      "score": 0.8963540019770869,
+      "score_with_name_hint": 0.926354001977087,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.25,
+      "reference": "data/java_projects/quickview",
+      "candidate": "data/java_projects/Spring-Batch-Workshop",
+      "score": 0.25301401378324145,
+      "score_with_name_hint": 0.25301401378324145,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.25,
+      "reference": "data/java_projects/quickview",
+      "candidate": "data/java_projects/Analiza-i-Modelowanie",
+      "score": 0.29314857064707406,
+      "score_with_name_hint": 0.29314857064707406,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.25,
+      "reference": "data/java_projects/marakana-alpha",
+      "candidate": "java_projects_marakana-alpha_drift_25",
+      "score": 0.9533125661120693,
+      "score_with_name_hint": 0.9833125661120693,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.25,
+      "reference": "data/java_projects/marakana-alpha",
+      "candidate": "data/java_projects/quickview",
+      "score": 0.14491753967817086,
+      "score_with_name_hint": 0.14491753967817086,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.25,
+      "reference": "data/java_projects/marakana-alpha",
+      "candidate": "data/java_projects/Exploding-Eggs",
+      "score": 0.28565980047507045,
+      "score_with_name_hint": 0.28565980047507045,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.25,
+      "reference": "data/java_projects/picross",
+      "candidate": "java_projects_picross_drift_25",
+      "score": 0.9307249011258466,
+      "score_with_name_hint": 0.9607249011258466,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.25,
+      "reference": "data/java_projects/picross",
+      "candidate": "data/java_projects/marakana-alpha",
+      "score": 0.20701266885117467,
+      "score_with_name_hint": 0.20701266885117467,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.25,
+      "reference": "data/java_projects/picross",
+      "candidate": "data/java_projects/Android-Rest-Client",
+      "score": 0.2209873425978615,
+      "score_with_name_hint": 0.2209873425978615,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.25,
+      "reference": "data/java_projects/edumips64",
+      "candidate": "java_projects_edumips64_drift_25",
+      "score": 0.9039851326807115,
+      "score_with_name_hint": 0.9339851326807115,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.25,
+      "reference": "data/java_projects/edumips64",
+      "candidate": "data/java_projects/Speakex",
+      "score": 0.12058919906554406,
+      "score_with_name_hint": 0.12058919906554406,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.25,
+      "reference": "data/java_projects/edumips64",
+      "candidate": "data/java_projects/SPREAD",
+      "score": 0.25967300773257973,
+      "score_with_name_hint": 0.25967300773257973,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.25,
+      "reference": "data/java_projects/BlockDoor",
+      "candidate": "java_projects_BlockDoor_drift_25",
+      "score": 0.8879208621065152,
+      "score_with_name_hint": 0.9179208621065152,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.25,
+      "reference": "data/java_projects/BlockDoor",
+      "candidate": "data/java_projects/lombok.maven",
+      "score": 0.1505737222828786,
+      "score_with_name_hint": 0.1505737222828786,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.25,
+      "reference": "data/java_projects/BlockDoor",
+      "candidate": "data/java_projects/iBank",
+      "score": 0.22128618355973087,
+      "score_with_name_hint": 0.22128618355973087,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.25,
+      "reference": "data/java_projects/umerobo",
+      "candidate": "java_projects_umerobo_drift_25",
+      "score": 0.8853996235273422,
+      "score_with_name_hint": 0.9153996235273423,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.25,
+      "reference": "data/java_projects/umerobo",
+      "candidate": "data/java_projects/Speakex",
+      "score": 0.11515527194365932,
+      "score_with_name_hint": 0.11515527194365932,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.25,
+      "reference": "data/java_projects/umerobo",
+      "candidate": "data/java_projects/theantswar",
+      "score": 0.27436825218464567,
+      "score_with_name_hint": 0.27436825218464567,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.25,
+      "reference": "data/java_projects/android-api_1",
+      "candidate": "java_projects_android-api_1_drift_25",
+      "score": 0.9357766443562108,
+      "score_with_name_hint": 0.9657766443562108,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.25,
+      "reference": "data/java_projects/android-api_1",
+      "candidate": "data/java_projects/Spring-Batch-Workshop",
+      "score": 0.19222655111375556,
+      "score_with_name_hint": 0.19222655111375556,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.25,
+      "reference": "data/java_projects/android-api_1",
+      "candidate": "data/java_projects/gameapi-android",
+      "score": 0.2272957840422814,
+      "score_with_name_hint": 0.2272957840422814,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.25,
+      "reference": "data/java_projects/direct-to-heroku-client-java",
+      "candidate": "java_projects_direct-to-heroku-client-java_drift_25",
+      "score": 0.9263858600161695,
+      "score_with_name_hint": 0.9563858600161695,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.25,
+      "reference": "data/java_projects/direct-to-heroku-client-java",
+      "candidate": "data/java_projects/wss4j",
+      "score": 0.08632890809044987,
+      "score_with_name_hint": 0.08632890809044987,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.25,
+      "reference": "data/java_projects/direct-to-heroku-client-java",
+      "candidate": "data/java_projects/java-api",
+      "score": 0.28865038905057055,
+      "score_with_name_hint": 0.28865038905057055,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.25,
+      "reference": "data/java_projects/hive-serde",
+      "candidate": "java_projects_hive-serde_drift_25",
+      "score": 0.9269488526900802,
+      "score_with_name_hint": 0.9569488526900802,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.25,
+      "reference": "data/java_projects/hive-serde",
+      "candidate": "data/java_projects/picross",
+      "score": 0.21037286406594735,
+      "score_with_name_hint": 0.21037286406594735,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.25,
+      "reference": "data/java_projects/hive-serde",
+      "candidate": "data/java_projects/android-datepicker",
+      "score": 0.2269780142562545,
+      "score_with_name_hint": 0.2269780142562545,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.25,
+      "reference": "data/java_projects/Spring-Batch-Workshop",
+      "candidate": "java_projects_Spring-Batch-Workshop_drift_25",
+      "score": 0.9029150608620617,
+      "score_with_name_hint": 0.9329150608620618,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.25,
+      "reference": "data/java_projects/Spring-Batch-Workshop",
+      "candidate": "data/java_projects/BlockDoor",
+      "score": 0.17852105126233,
+      "score_with_name_hint": 0.17852105126233,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.25,
+      "reference": "data/java_projects/Spring-Batch-Workshop",
+      "candidate": "data/java_projects/spring-test-dbunit",
+      "score": 0.3298983650205324,
+      "score_with_name_hint": 0.3298983650205324,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.5,
+      "reference": "data/java_projects/lombok.maven",
+      "candidate": "java_projects_lombok.maven_drift_50",
+      "score": 0.7009357797612363,
+      "score_with_name_hint": 0.7309357797612364,
+      "decision": "ask",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.5,
+      "reference": "data/java_projects/lombok.maven",
+      "candidate": "data/java_projects/BlockDoor",
+      "score": 0.1505737222828786,
+      "score_with_name_hint": 0.1505737222828786,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.5,
+      "reference": "data/java_projects/lombok.maven",
+      "candidate": "data/java_projects/maven-plugins_2",
+      "score": 0.19732496305507571,
+      "score_with_name_hint": 0.19732496305507571,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.5,
+      "reference": "data/java_projects/j2mc-iptracker",
+      "candidate": "java_projects_j2mc-iptracker_drift_50",
+      "score": 0.8049631194650684,
+      "score_with_name_hint": 0.8349631194650684,
+      "decision": "ask",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.5,
+      "reference": "data/java_projects/j2mc-iptracker",
+      "candidate": "data/java_projects/Speakex",
+      "score": 0.15286276675504326,
+      "score_with_name_hint": 0.15286276675504326,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.5,
+      "reference": "data/java_projects/j2mc-iptracker",
+      "candidate": "data/java_projects/Android-LED-Power-Status",
+      "score": 0.23703083589670568,
+      "score_with_name_hint": 0.23703083589670568,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.5,
+      "reference": "data/java_projects/Speakex",
+      "candidate": "java_projects_Speakex_drift_50",
+      "score": 0.4897369695321001,
+      "score_with_name_hint": 0.5197369695321001,
+      "decision": "reject",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.5,
+      "reference": "data/java_projects/Speakex",
+      "candidate": "data/java_projects/claim-plugin",
+      "score": 0.1254920999883962,
+      "score_with_name_hint": 0.1254920999883962,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.5,
+      "reference": "data/java_projects/Speakex",
+      "candidate": "data/java_projects/Android-EmptyApp",
+      "score": 0.19516907225853303,
+      "score_with_name_hint": 0.19516907225853303,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.5,
+      "reference": "data/java_projects/fanfoudroid",
+      "candidate": "java_projects_fanfoudroid_drift_50",
+      "score": 0.6652076975422829,
+      "score_with_name_hint": 0.695207697542283,
+      "decision": "ask",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.5,
+      "reference": "data/java_projects/fanfoudroid",
+      "candidate": "data/java_projects/BlockDoor",
+      "score": 0.21671461916117563,
+      "score_with_name_hint": 0.21671461916117563,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.5,
+      "reference": "data/java_projects/fanfoudroid",
+      "candidate": "data/java_projects/FlickrjApi4Android",
+      "score": 0.2828637510320424,
+      "score_with_name_hint": 0.2828637510320424,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.5,
+      "reference": "data/java_projects/wss4j",
+      "candidate": "java_projects_wss4j_drift_50",
+      "score": 0.6838088530650054,
+      "score_with_name_hint": 0.7138088530650054,
+      "decision": "ask",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.5,
+      "reference": "data/java_projects/wss4j",
+      "candidate": "data/java_projects/HansungProject",
+      "score": 0.08604957121949063,
+      "score_with_name_hint": 0.08604957121949063,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.5,
+      "reference": "data/java_projects/wss4j",
+      "candidate": "data/java_projects/XMPP-for-Android",
+      "score": 0.2511628853732698,
+      "score_with_name_hint": 0.2511628853732698,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.5,
+      "reference": "data/java_projects/HansungProject",
+      "candidate": "java_projects_HansungProject_drift_50",
+      "score": 0.7058159093508606,
+      "score_with_name_hint": 0.7358159093508606,
+      "decision": "ask",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.5,
+      "reference": "data/java_projects/HansungProject",
+      "candidate": "data/java_projects/fanfoudroid",
+      "score": 0.16287991244110653,
+      "score_with_name_hint": 0.16287991244110653,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.5,
+      "reference": "data/java_projects/HansungProject",
+      "candidate": "data/java_projects/HelloADK_1",
+      "score": 0.2847853752312209,
+      "score_with_name_hint": 0.2847853752312209,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.5,
+      "reference": "data/java_projects/envinject-plugin",
+      "candidate": "java_projects_envinject-plugin_drift_50",
+      "score": 0.6857517004000291,
+      "score_with_name_hint": 0.7157517004000291,
+      "decision": "ask",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.5,
+      "reference": "data/java_projects/envinject-plugin",
+      "candidate": "data/java_projects/fanfoudroid",
+      "score": 0.19994254160948138,
+      "score_with_name_hint": 0.19994254160948138,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.5,
+      "reference": "data/java_projects/envinject-plugin",
+      "candidate": "data/java_projects/dtkit-plugin",
+      "score": 0.3014953438946864,
+      "score_with_name_hint": 0.3014953438946864,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.5,
+      "reference": "data/java_projects/claim-plugin",
+      "candidate": "java_projects_claim-plugin_drift_50",
+      "score": 0.6800916900819554,
+      "score_with_name_hint": 0.7100916900819554,
+      "decision": "ask",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.5,
+      "reference": "data/java_projects/claim-plugin",
+      "candidate": "data/java_projects/fanfoudroid",
+      "score": 0.1509398007773309,
+      "score_with_name_hint": 0.1509398007773309,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.5,
+      "reference": "data/java_projects/claim-plugin",
+      "candidate": "data/java_projects/stackhammer-plugin",
+      "score": 0.24592330695618536,
+      "score_with_name_hint": 0.24592330695618536,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.5,
+      "reference": "data/java_projects/searchable",
+      "candidate": "java_projects_searchable_drift_50",
+      "score": 0.7310544120163445,
+      "score_with_name_hint": 0.7610544120163445,
+      "decision": "ask",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.5,
+      "reference": "data/java_projects/searchable",
+      "candidate": "data/java_projects/lombok.maven",
+      "score": 0.1715389492847677,
+      "score_with_name_hint": 0.1715389492847677,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.5,
+      "reference": "data/java_projects/searchable",
+      "candidate": "data/java_projects/Smaller",
+      "score": 0.2388197446257759,
+      "score_with_name_hint": 0.2388197446257759,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.5,
+      "reference": "data/java_projects/RandCS",
+      "candidate": "java_projects_RandCS_drift_50",
+      "score": 0.7060543301635197,
+      "score_with_name_hint": 0.7360543301635197,
+      "decision": "ask",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.5,
+      "reference": "data/java_projects/RandCS",
+      "candidate": "data/java_projects/lombok.maven",
+      "score": 0.17996766447091153,
+      "score_with_name_hint": 0.17996766447091153,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.5,
+      "reference": "data/java_projects/RandCS",
+      "candidate": "data/java_projects/Catan",
+      "score": 0.24797360060136675,
+      "score_with_name_hint": 0.24797360060136675,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.5,
+      "reference": "data/java_projects/quickview",
+      "candidate": "java_projects_quickview_drift_50",
+      "score": 0.719989261101844,
+      "score_with_name_hint": 0.749989261101844,
+      "decision": "ask",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.5,
+      "reference": "data/java_projects/quickview",
+      "candidate": "data/java_projects/direct-to-heroku-client-java",
+      "score": 0.1964223553290458,
+      "score_with_name_hint": 0.1964223553290458,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.5,
+      "reference": "data/java_projects/quickview",
+      "candidate": "data/java_projects/Analiza-i-Modelowanie",
+      "score": 0.29314857064707406,
+      "score_with_name_hint": 0.29314857064707406,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.5,
+      "reference": "data/java_projects/marakana-alpha",
+      "candidate": "java_projects_marakana-alpha_drift_50",
+      "score": 0.8069974872934371,
+      "score_with_name_hint": 0.8369974872934371,
+      "decision": "ask",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.5,
+      "reference": "data/java_projects/marakana-alpha",
+      "candidate": "data/java_projects/wss4j",
+      "score": 0.035270656177050594,
+      "score_with_name_hint": 0.035270656177050594,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.5,
+      "reference": "data/java_projects/marakana-alpha",
+      "candidate": "data/java_projects/Exploding-Eggs",
+      "score": 0.28565980047507045,
+      "score_with_name_hint": 0.28565980047507045,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.5,
+      "reference": "data/java_projects/picross",
+      "candidate": "java_projects_picross_drift_50",
+      "score": 0.779701260000744,
+      "score_with_name_hint": 0.809701260000744,
+      "decision": "ask",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.5,
+      "reference": "data/java_projects/picross",
+      "candidate": "data/java_projects/quickview",
+      "score": 0.16496700100898878,
+      "score_with_name_hint": 0.16496700100898878,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.5,
+      "reference": "data/java_projects/picross",
+      "candidate": "data/java_projects/Android-Rest-Client",
+      "score": 0.2209873425978615,
+      "score_with_name_hint": 0.2209873425978615,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.5,
+      "reference": "data/java_projects/edumips64",
+      "candidate": "java_projects_edumips64_drift_50",
+      "score": 0.7352918879112759,
+      "score_with_name_hint": 0.7652918879112759,
+      "decision": "ask",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.5,
+      "reference": "data/java_projects/edumips64",
+      "candidate": "data/java_projects/umerobo",
+      "score": 0.17374924240630277,
+      "score_with_name_hint": 0.17374924240630277,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.5,
+      "reference": "data/java_projects/edumips64",
+      "candidate": "data/java_projects/SPREAD",
+      "score": 0.25967300773257973,
+      "score_with_name_hint": 0.25967300773257973,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.5,
+      "reference": "data/java_projects/BlockDoor",
+      "candidate": "java_projects_BlockDoor_drift_50",
+      "score": 0.6650454110674499,
+      "score_with_name_hint": 0.6950454110674499,
+      "decision": "ask",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.5,
+      "reference": "data/java_projects/BlockDoor",
+      "candidate": "data/java_projects/envinject-plugin",
+      "score": 0.21999426864796817,
+      "score_with_name_hint": 0.21999426864796817,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.5,
+      "reference": "data/java_projects/BlockDoor",
+      "candidate": "data/java_projects/iBank",
+      "score": 0.22128618355973087,
+      "score_with_name_hint": 0.22128618355973087,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.5,
+      "reference": "data/java_projects/umerobo",
+      "candidate": "java_projects_umerobo_drift_50",
+      "score": 0.7399681780435691,
+      "score_with_name_hint": 0.7699681780435691,
+      "decision": "ask",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.5,
+      "reference": "data/java_projects/umerobo",
+      "candidate": "data/java_projects/fanfoudroid",
+      "score": 0.17840359485651663,
+      "score_with_name_hint": 0.17840359485651663,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.5,
+      "reference": "data/java_projects/umerobo",
+      "candidate": "data/java_projects/theantswar",
+      "score": 0.27436825218464567,
+      "score_with_name_hint": 0.27436825218464567,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.5,
+      "reference": "data/java_projects/android-api_1",
+      "candidate": "java_projects_android-api_1_drift_50",
+      "score": 0.8036007198496196,
+      "score_with_name_hint": 0.8336007198496196,
+      "decision": "ask",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.5,
+      "reference": "data/java_projects/android-api_1",
+      "candidate": "data/java_projects/BlockDoor",
+      "score": 0.19841101308273681,
+      "score_with_name_hint": 0.19841101308273681,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.5,
+      "reference": "data/java_projects/android-api_1",
+      "candidate": "data/java_projects/gameapi-android",
+      "score": 0.2272957840422814,
+      "score_with_name_hint": 0.2272957840422814,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.5,
+      "reference": "data/java_projects/direct-to-heroku-client-java",
+      "candidate": "java_projects_direct-to-heroku-client-java_drift_50",
+      "score": 0.7490867230738063,
+      "score_with_name_hint": 0.7790867230738063,
+      "decision": "ask",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.5,
+      "reference": "data/java_projects/direct-to-heroku-client-java",
+      "candidate": "data/java_projects/umerobo",
+      "score": 0.20353042530379442,
+      "score_with_name_hint": 0.20353042530379442,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.5,
+      "reference": "data/java_projects/direct-to-heroku-client-java",
+      "candidate": "data/java_projects/java-api",
+      "score": 0.28865038905057055,
+      "score_with_name_hint": 0.28865038905057055,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.5,
+      "reference": "data/java_projects/hive-serde",
+      "candidate": "java_projects_hive-serde_drift_50",
+      "score": 0.7944142158088957,
+      "score_with_name_hint": 0.8244142158088957,
+      "decision": "ask",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.5,
+      "reference": "data/java_projects/hive-serde",
+      "candidate": "data/java_projects/lombok.maven",
+      "score": 0.1838977121957334,
+      "score_with_name_hint": 0.1838977121957334,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.5,
+      "reference": "data/java_projects/hive-serde",
+      "candidate": "data/java_projects/android-datepicker",
+      "score": 0.2269780142562545,
+      "score_with_name_hint": 0.2269780142562545,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "content_drift",
+      "decoy_kind": "true",
+      "drift": 0.5,
+      "reference": "data/java_projects/Spring-Batch-Workshop",
+      "candidate": "java_projects_Spring-Batch-Workshop_drift_50",
+      "score": 0.7103929592687235,
+      "score_with_name_hint": 0.7403929592687235,
+      "decision": "ask",
+      "is_true_match": true
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "easy",
+      "drift": 0.5,
+      "reference": "data/java_projects/Spring-Batch-Workshop",
+      "candidate": "data/java_projects/envinject-plugin",
+      "score": 0.25497653260207276,
+      "score_with_name_hint": 0.25497653260207276,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "real_snapshot",
+      "scenario": "decoy",
+      "decoy_kind": "hard",
+      "drift": 0.5,
+      "reference": "data/java_projects/Spring-Batch-Workshop",
+      "candidate": "data/java_projects/spring-test-dbunit",
+      "score": 0.3298983650205324,
+      "score_with_name_hint": 0.3298983650205324,
+      "decision": "reject",
+      "is_true_match": false
+    }
+  ]
+}

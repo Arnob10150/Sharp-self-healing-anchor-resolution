@@ -1,0 +1,28 @@
+# Local datasets
+data/*.tar.gz
+data/*.part
+data/java_projects/
+data/repositoryState/
+
+# Runtime state
+.sharp_anchors.json
+
+# Python cache and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

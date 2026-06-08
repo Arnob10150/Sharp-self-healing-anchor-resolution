@@ -1,0 +1,1643 @@
+{
+  "dataset": "controlled synthetic supplement",
+  "n_projects": 20,
+  "seed": 7,
+  "thresholds": {
+    "tau_high": 0.82,
+    "tau_low": 0.62
+  },
+  "summary": {
+    "recovery_accuracy": 0.75,
+    "false_match_rate": 0.0,
+    "true_pairs": 80,
+    "decoy_pairs": 80
+  },
+  "by_drift": {
+    "0.0": {
+      "recovery_accuracy": 1.0,
+      "false_match_rate": 0.0,
+      "true_pairs": 20,
+      "decoy_pairs": 20
+    },
+    "0.1": {
+      "recovery_accuracy": 1.0,
+      "false_match_rate": 0.0,
+      "true_pairs": 20,
+      "decoy_pairs": 20
+    },
+    "0.25": {
+      "recovery_accuracy": 1.0,
+      "false_match_rate": 0.0,
+      "true_pairs": 20,
+      "decoy_pairs": 20
+    },
+    "0.5": {
+      "recovery_accuracy": 0.0,
+      "false_match_rate": 0.0,
+      "true_pairs": 20,
+      "decoy_pairs": 20
+    }
+  },
+  "rows": [
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.0,
+      "reference": "project_000",
+      "candidate": "project_000_drift_0",
+      "score": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.0,
+      "reference": "project_000",
+      "candidate": "project_004",
+      "score": 0.24517517965782804,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.0,
+      "reference": "project_001",
+      "candidate": "project_001_drift_0",
+      "score": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.0,
+      "reference": "project_001",
+      "candidate": "project_009",
+      "score": 0.2509898294137147,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.0,
+      "reference": "project_002",
+      "candidate": "project_002_drift_0",
+      "score": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.0,
+      "reference": "project_002",
+      "candidate": "project_017",
+      "score": 0.24884966420243898,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.0,
+      "reference": "project_003",
+      "candidate": "project_003_drift_0",
+      "score": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.0,
+      "reference": "project_003",
+      "candidate": "project_005",
+      "score": 0.24898406668697334,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.0,
+      "reference": "project_004",
+      "candidate": "project_004_drift_0",
+      "score": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.0,
+      "reference": "project_004",
+      "candidate": "project_014",
+      "score": 0.2505909272685201,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.0,
+      "reference": "project_005",
+      "candidate": "project_005_drift_0",
+      "score": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.0,
+      "reference": "project_005",
+      "candidate": "project_012",
+      "score": 0.2511619369133258,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.0,
+      "reference": "project_006",
+      "candidate": "project_006_drift_0",
+      "score": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.0,
+      "reference": "project_006",
+      "candidate": "project_000",
+      "score": 0.24403429357575823,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.0,
+      "reference": "project_007",
+      "candidate": "project_007_drift_0",
+      "score": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.0,
+      "reference": "project_007",
+      "candidate": "project_000",
+      "score": 0.2514857481259852,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.0,
+      "reference": "project_008",
+      "candidate": "project_008_drift_0",
+      "score": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.0,
+      "reference": "project_008",
+      "candidate": "project_001",
+      "score": 0.24927720500012374,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.0,
+      "reference": "project_009",
+      "candidate": "project_009_drift_0",
+      "score": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.0,
+      "reference": "project_009",
+      "candidate": "project_014",
+      "score": 0.24927690464686325,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.0,
+      "reference": "project_010",
+      "candidate": "project_010_drift_0",
+      "score": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.0,
+      "reference": "project_010",
+      "candidate": "project_018",
+      "score": 0.25104576726969696,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.0,
+      "reference": "project_011",
+      "candidate": "project_011_drift_0",
+      "score": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.0,
+      "reference": "project_011",
+      "candidate": "project_013",
+      "score": 0.2512724043979653,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.0,
+      "reference": "project_012",
+      "candidate": "project_012_drift_0",
+      "score": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.0,
+      "reference": "project_012",
+      "candidate": "project_005",
+      "score": 0.2511619369133258,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.0,
+      "reference": "project_013",
+      "candidate": "project_013_drift_0",
+      "score": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.0,
+      "reference": "project_013",
+      "candidate": "project_011",
+      "score": 0.2512724043979653,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.0,
+      "reference": "project_014",
+      "candidate": "project_014_drift_0",
+      "score": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.0,
+      "reference": "project_014",
+      "candidate": "project_011",
+      "score": 0.2508501163362931,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.0,
+      "reference": "project_015",
+      "candidate": "project_015_drift_0",
+      "score": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.0,
+      "reference": "project_015",
+      "candidate": "project_018",
+      "score": 0.2483722263359039,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.0,
+      "reference": "project_016",
+      "candidate": "project_016_drift_0",
+      "score": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.0,
+      "reference": "project_016",
+      "candidate": "project_004",
+      "score": 0.24964164230921126,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.0,
+      "reference": "project_017",
+      "candidate": "project_017_drift_0",
+      "score": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.0,
+      "reference": "project_017",
+      "candidate": "project_011",
+      "score": 0.25146261712588136,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.0,
+      "reference": "project_018",
+      "candidate": "project_018_drift_0",
+      "score": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.0,
+      "reference": "project_018",
+      "candidate": "project_011",
+      "score": 0.24995390875059248,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.0,
+      "reference": "project_019",
+      "candidate": "project_019_drift_0",
+      "score": 1.0,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.0,
+      "reference": "project_019",
+      "candidate": "project_008",
+      "score": 0.2492730835667423,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.1,
+      "reference": "project_000",
+      "candidate": "project_000_drift_10",
+      "score": 0.9893428287253336,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.1,
+      "reference": "project_000",
+      "candidate": "project_018",
+      "score": 0.24150490873078478,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.1,
+      "reference": "project_001",
+      "candidate": "project_001_drift_10",
+      "score": 0.989324839527592,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.1,
+      "reference": "project_001",
+      "candidate": "project_005",
+      "score": 0.2516918277745344,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.1,
+      "reference": "project_002",
+      "candidate": "project_002_drift_10",
+      "score": 0.9905702556955125,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.1,
+      "reference": "project_002",
+      "candidate": "project_006",
+      "score": 0.24685167601417443,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.1,
+      "reference": "project_003",
+      "candidate": "project_003_drift_10",
+      "score": 0.988291013914537,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.1,
+      "reference": "project_003",
+      "candidate": "project_006",
+      "score": 0.24741737876715825,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.1,
+      "reference": "project_004",
+      "candidate": "project_004_drift_10",
+      "score": 0.9905873241708002,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.1,
+      "reference": "project_004",
+      "candidate": "project_005",
+      "score": 0.2517679808274599,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.1,
+      "reference": "project_005",
+      "candidate": "project_005_drift_10",
+      "score": 0.9917630866021975,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.1,
+      "reference": "project_005",
+      "candidate": "project_004",
+      "score": 0.2517679808274599,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.1,
+      "reference": "project_006",
+      "candidate": "project_006_drift_10",
+      "score": 0.9789002375794567,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.1,
+      "reference": "project_006",
+      "candidate": "project_003",
+      "score": 0.24741737876715825,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.1,
+      "reference": "project_007",
+      "candidate": "project_007_drift_10",
+      "score": 0.985901284028732,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.1,
+      "reference": "project_007",
+      "candidate": "project_019",
+      "score": 0.2440896724051515,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.1,
+      "reference": "project_008",
+      "candidate": "project_008_drift_10",
+      "score": 0.9893782001278111,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.1,
+      "reference": "project_008",
+      "candidate": "project_003",
+      "score": 0.244320339507413,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.1,
+      "reference": "project_009",
+      "candidate": "project_009_drift_10",
+      "score": 0.981264547280531,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.1,
+      "reference": "project_009",
+      "candidate": "project_005",
+      "score": 0.2512811034399388,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.1,
+      "reference": "project_010",
+      "candidate": "project_010_drift_10",
+      "score": 0.988291919396521,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.1,
+      "reference": "project_010",
+      "candidate": "project_009",
+      "score": 0.246300211398507,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.1,
+      "reference": "project_011",
+      "candidate": "project_011_drift_10",
+      "score": 0.9858981047510513,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.1,
+      "reference": "project_011",
+      "candidate": "project_017",
+      "score": 0.25146261712588136,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.1,
+      "reference": "project_012",
+      "candidate": "project_012_drift_10",
+      "score": 0.9882987425027593,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.1,
+      "reference": "project_012",
+      "candidate": "project_019",
+      "score": 0.2513401582443774,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.1,
+      "reference": "project_013",
+      "candidate": "project_013_drift_10",
+      "score": 0.98246875,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.1,
+      "reference": "project_013",
+      "candidate": "project_019",
+      "score": 0.25116472489629693,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.1,
+      "reference": "project_014",
+      "candidate": "project_014_drift_10",
+      "score": 0.9835263883135712,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.1,
+      "reference": "project_014",
+      "candidate": "project_003",
+      "score": 0.2461990637602005,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.1,
+      "reference": "project_015",
+      "candidate": "project_015_drift_10",
+      "score": 0.9905077284340182,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.1,
+      "reference": "project_015",
+      "candidate": "project_018",
+      "score": 0.2483722263359039,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.1,
+      "reference": "project_016",
+      "candidate": "project_016_drift_10",
+      "score": 0.9870409477493832,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.1,
+      "reference": "project_016",
+      "candidate": "project_015",
+      "score": 0.24840866804453327,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.1,
+      "reference": "project_017",
+      "candidate": "project_017_drift_10",
+      "score": 0.9858558010378337,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.1,
+      "reference": "project_017",
+      "candidate": "project_013",
+      "score": 0.25080710279499113,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.1,
+      "reference": "project_018",
+      "candidate": "project_018_drift_10",
+      "score": 0.9882092635712125,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.1,
+      "reference": "project_018",
+      "candidate": "project_014",
+      "score": 0.251383543456837,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.1,
+      "reference": "project_019",
+      "candidate": "project_019_drift_10",
+      "score": 0.9847921391191109,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.1,
+      "reference": "project_019",
+      "candidate": "project_017",
+      "score": 0.25152648003220324,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.25,
+      "reference": "project_000",
+      "candidate": "project_000_drift_25",
+      "score": 0.8594616080929347,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.25,
+      "reference": "project_000",
+      "candidate": "project_001",
+      "score": 0.24635337757015718,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.25,
+      "reference": "project_001",
+      "candidate": "project_001_drift_25",
+      "score": 0.867769491652706,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.25,
+      "reference": "project_001",
+      "candidate": "project_002",
+      "score": 0.24881304722108666,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.25,
+      "reference": "project_002",
+      "candidate": "project_002_drift_25",
+      "score": 0.8604191529330768,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.25,
+      "reference": "project_002",
+      "candidate": "project_008",
+      "score": 0.24359010576681056,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.25,
+      "reference": "project_003",
+      "candidate": "project_003_drift_25",
+      "score": 0.8633425053805456,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.25,
+      "reference": "project_003",
+      "candidate": "project_014",
+      "score": 0.2461990637602005,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.25,
+      "reference": "project_004",
+      "candidate": "project_004_drift_25",
+      "score": 0.868176036373678,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.25,
+      "reference": "project_004",
+      "candidate": "project_005",
+      "score": 0.2517679808274599,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.25,
+      "reference": "project_005",
+      "candidate": "project_005_drift_25",
+      "score": 0.8791189966509293,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.25,
+      "reference": "project_005",
+      "candidate": "project_008",
+      "score": 0.24885310922398585,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.25,
+      "reference": "project_006",
+      "candidate": "project_006_drift_25",
+      "score": 0.8608022803289657,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.25,
+      "reference": "project_006",
+      "candidate": "project_000",
+      "score": 0.24403429357575823,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.25,
+      "reference": "project_007",
+      "candidate": "project_007_drift_25",
+      "score": 0.892728112146847,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.25,
+      "reference": "project_007",
+      "candidate": "project_008",
+      "score": 0.23985187501681132,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.25,
+      "reference": "project_008",
+      "candidate": "project_008_drift_25",
+      "score": 0.8712386241970802,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.25,
+      "reference": "project_008",
+      "candidate": "project_012",
+      "score": 0.25023339100960584,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.25,
+      "reference": "project_009",
+      "candidate": "project_009_drift_25",
+      "score": 0.8912540921757635,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.25,
+      "reference": "project_009",
+      "candidate": "project_007",
+      "score": 0.24574718253046046,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.25,
+      "reference": "project_010",
+      "candidate": "project_010_drift_25",
+      "score": 0.8545706304605389,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.25,
+      "reference": "project_010",
+      "candidate": "project_002",
+      "score": 0.2424899095419918,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.25,
+      "reference": "project_011",
+      "candidate": "project_011_drift_25",
+      "score": 0.8646454812546287,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.25,
+      "reference": "project_011",
+      "candidate": "project_016",
+      "score": 0.24997107784942357,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.25,
+      "reference": "project_012",
+      "candidate": "project_012_drift_25",
+      "score": 0.8902492447151472,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.25,
+      "reference": "project_012",
+      "candidate": "project_019",
+      "score": 0.2513401582443774,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.25,
+      "reference": "project_013",
+      "candidate": "project_013_drift_25",
+      "score": 0.8967151632307524,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.25,
+      "reference": "project_013",
+      "candidate": "project_012",
+      "score": 0.251592353123865,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.25,
+      "reference": "project_014",
+      "candidate": "project_014_drift_25",
+      "score": 0.8584049293628568,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.25,
+      "reference": "project_014",
+      "candidate": "project_013",
+      "score": 0.25155401942794675,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.25,
+      "reference": "project_015",
+      "candidate": "project_015_drift_25",
+      "score": 0.8608150084946271,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.25,
+      "reference": "project_015",
+      "candidate": "project_010",
+      "score": 0.24661961851132252,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.25,
+      "reference": "project_016",
+      "candidate": "project_016_drift_25",
+      "score": 0.8843019298661422,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.25,
+      "reference": "project_016",
+      "candidate": "project_015",
+      "score": 0.24840866804453327,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.25,
+      "reference": "project_017",
+      "candidate": "project_017_drift_25",
+      "score": 0.8770823625194506,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.25,
+      "reference": "project_017",
+      "candidate": "project_001",
+      "score": 0.25161626546777877,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.25,
+      "reference": "project_018",
+      "candidate": "project_018_drift_25",
+      "score": 0.8934355841639299,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.25,
+      "reference": "project_018",
+      "candidate": "project_007",
+      "score": 0.24053090394909643,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.25,
+      "reference": "project_019",
+      "candidate": "project_019_drift_25",
+      "score": 0.8456709328998079,
+      "decision": "accept",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.25,
+      "reference": "project_019",
+      "candidate": "project_001",
+      "score": 0.25155054736108,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.5,
+      "reference": "project_000",
+      "candidate": "project_000_drift_50",
+      "score": 0.5891734102751083,
+      "decision": "reject",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.5,
+      "reference": "project_000",
+      "candidate": "project_015",
+      "score": 0.247460122027524,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.5,
+      "reference": "project_001",
+      "candidate": "project_001_drift_50",
+      "score": 0.6216148875086617,
+      "decision": "ask",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.5,
+      "reference": "project_001",
+      "candidate": "project_017",
+      "score": 0.25161626546777877,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.5,
+      "reference": "project_002",
+      "candidate": "project_002_drift_50",
+      "score": 0.6231749338994496,
+      "decision": "ask",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.5,
+      "reference": "project_002",
+      "candidate": "project_008",
+      "score": 0.24359010576681056,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.5,
+      "reference": "project_003",
+      "candidate": "project_003_drift_50",
+      "score": 0.616660100703885,
+      "decision": "reject",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.5,
+      "reference": "project_003",
+      "candidate": "project_001",
+      "score": 0.2491171214835861,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.5,
+      "reference": "project_004",
+      "candidate": "project_004_drift_50",
+      "score": 0.5776788489915495,
+      "decision": "reject",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.5,
+      "reference": "project_004",
+      "candidate": "project_006",
+      "score": 0.25119485980407835,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.5,
+      "reference": "project_005",
+      "candidate": "project_005_drift_50",
+      "score": 0.6187466353380164,
+      "decision": "reject",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.5,
+      "reference": "project_005",
+      "candidate": "project_007",
+      "score": 0.24492525406531296,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.5,
+      "reference": "project_006",
+      "candidate": "project_006_drift_50",
+      "score": 0.5635909173087951,
+      "decision": "reject",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.5,
+      "reference": "project_006",
+      "candidate": "project_002",
+      "score": 0.24685167601417443,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.5,
+      "reference": "project_007",
+      "candidate": "project_007_drift_50",
+      "score": 0.6309901103267442,
+      "decision": "ask",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.5,
+      "reference": "project_007",
+      "candidate": "project_009",
+      "score": 0.24574718253046046,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.5,
+      "reference": "project_008",
+      "candidate": "project_008_drift_50",
+      "score": 0.6208942343553955,
+      "decision": "ask",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.5,
+      "reference": "project_008",
+      "candidate": "project_002",
+      "score": 0.24359010576681056,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.5,
+      "reference": "project_009",
+      "candidate": "project_009_drift_50",
+      "score": 0.6319859512184027,
+      "decision": "ask",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.5,
+      "reference": "project_009",
+      "candidate": "project_011",
+      "score": 0.2508764383077795,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.5,
+      "reference": "project_010",
+      "candidate": "project_010_drift_50",
+      "score": 0.5658866650427508,
+      "decision": "reject",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.5,
+      "reference": "project_010",
+      "candidate": "project_002",
+      "score": 0.2424899095419918,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.5,
+      "reference": "project_011",
+      "candidate": "project_011_drift_50",
+      "score": 0.6345064175988084,
+      "decision": "ask",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.5,
+      "reference": "project_011",
+      "candidate": "project_010",
+      "score": 0.24820480020150995,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.5,
+      "reference": "project_012",
+      "candidate": "project_012_drift_50",
+      "score": 0.6818911970425795,
+      "decision": "ask",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.5,
+      "reference": "project_012",
+      "candidate": "project_002",
+      "score": 0.24756281045807726,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.5,
+      "reference": "project_013",
+      "candidate": "project_013_drift_50",
+      "score": 0.634097615490227,
+      "decision": "ask",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.5,
+      "reference": "project_013",
+      "candidate": "project_014",
+      "score": 0.25155401942794675,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.5,
+      "reference": "project_014",
+      "candidate": "project_014_drift_50",
+      "score": 0.6692973907263873,
+      "decision": "ask",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.5,
+      "reference": "project_014",
+      "candidate": "project_009",
+      "score": 0.24927690464686325,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.5,
+      "reference": "project_015",
+      "candidate": "project_015_drift_50",
+      "score": 0.6779674567604188,
+      "decision": "ask",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.5,
+      "reference": "project_015",
+      "candidate": "project_002",
+      "score": 0.24993655146789726,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.5,
+      "reference": "project_016",
+      "candidate": "project_016_drift_50",
+      "score": 0.5747649736274553,
+      "decision": "reject",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.5,
+      "reference": "project_016",
+      "candidate": "project_017",
+      "score": 0.2492393945795755,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.5,
+      "reference": "project_017",
+      "candidate": "project_017_drift_50",
+      "score": 0.6239974870885078,
+      "decision": "ask",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.5,
+      "reference": "project_017",
+      "candidate": "project_014",
+      "score": 0.25020790622452305,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.5,
+      "reference": "project_018",
+      "candidate": "project_018_drift_50",
+      "score": 0.621843760108248,
+      "decision": "ask",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.5,
+      "reference": "project_018",
+      "candidate": "project_007",
+      "score": 0.24053090394909643,
+      "decision": "reject",
+      "is_true_match": false
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "content_drift",
+      "drift": 0.5,
+      "reference": "project_019",
+      "candidate": "project_019_drift_50",
+      "score": 0.6358444726717839,
+      "decision": "ask",
+      "is_true_match": true
+    },
+    {
+      "mode": "synthetic",
+      "scenario": "decoy",
+      "drift": 0.5,
+      "reference": "project_019",
+      "candidate": "project_004",
+      "score": 0.2517642165700783,
+      "decision": "reject",
+      "is_true_match": false
+    }
+  ]
+}
